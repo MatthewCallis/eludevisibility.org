@@ -1,0 +1,143 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    840px;
+
+$on-palm:          600px;
+$on-laptop:        840px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "base", "layout", "header", "footer", "syntax-highlighting";
+
+.post {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 1.5em;
+}
+.download {
+  padding: 10px;
+}
+.author {
+  span {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-indent: 2px;
+    padding-top:0.5em;
+  }
+}
+.archive-intro {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-indent: 2px;
+}
+.hint {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-indent: 2px;
+}
+.example {
+  font-family: 'Menlo';
+  padding: 10px;
+}
+.manual {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-indent: 2px;
+}
+.post-date {
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-indent: 2px;
+}
+.post-title {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-indent: 3px;
+}
+
+// Page / Post
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+}
+.post-header {
+  margin: $spacing-unit/2 0;
+}
+.title {
+  font-size: 32px;
+  text-align: center;
+  font-family: "PT Sans";
+  font-weight: 900;
+  @include media-query($on-laptop) {
+    font-size: 28px;
+  }
+}
+.post-content {
+  margin-bottom: $spacing-unit;
+  p {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 32px;
+    @include media-query($on-laptop) {
+      font-size: 28px;
+    }
+  }
+  h3 {
+    font-size: 26px;
+    @include media-query($on-laptop) {
+      font-size: 22px;
+    }
+  }
+  h4 {
+    font-size: 20px;
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+}

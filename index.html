@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="home">
+  {% for post in site.posts%}
+  <div class="post">
+    <div class="post-date">
+      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </div>
+    {% if post.category %}
+    <div class="post-category">
+      {{post.category}}
+    </div>
+    {% endif %}
+    <div class="post-title">
+      <a class="post-link" href="{{post.url}}" title="{{post.title}}">
+        {{post.title}}
+      </a>
+    </div>
+    <div class="post-excerpt">
+      {{post.excerpt}}
+    </div>
+  </div>
+  {% endfor %}
+</div>

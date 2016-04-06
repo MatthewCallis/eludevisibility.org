@@ -1,0 +1,20 @@
+
+<div class="wrapper site-title">
+  <a href="/" title="{{site.title}}">{{site.title}}</a>
+</div>
+<div class="wrapper site-description">
+  {{site.description}}
+</div>
+<div class="wrapper">
+  <div class="trigger site-navigation">
+    <a class="page-link" href="/">HOME</a>
+    {% for sitePage in site.pages %}
+      {% if sitePage.title %}
+        <span class="divider">/</span>
+        <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}" title="{{sitePage.title}}">
+          {{sitePage.title}}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
