@@ -7,5 +7,23 @@
     {{ content }}
   </div>
   {% include footer.html %}
+<script>
+var bg = [
+  'background-ct-12000.png',
+  'background-dk.png',
+  'background-mario-blue-lumps.png',
+  'background-mario-green-hills.png',
+  'background-mario-green-mountains.png',
+  'background-mario-mountains.png',
+  'background-mario-tree-tops.png',
+  'background-mario2-w1a2.png',
+  'background-mother2-dalaam.png',
+  'background-mother2-onett.png',
+  'background-som-goblin.png',
+  'background-som-neko.png',
+  'background-som.png'
+];
+document.querySelector('.site-footer').style.backgroundImage = 'https://snes.in/site/bg/' + bg[Math.floor(Math.random() * bg.length)];
+</script>
 </body>
 </html>
