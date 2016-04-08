@@ -2,6 +2,10 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-image: url("https://snes.in/site/bg/background-som-neko.png");
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  padding-bottom: 450px;
 }
 .footer-heading {
   font-size: 18px;
