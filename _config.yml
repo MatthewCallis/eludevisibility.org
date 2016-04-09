@@ -17,6 +17,8 @@ paginate_path: "/page/:num/"
 exclude:
   - README.md
   - Gemfile*
+  - d.php
+  - u.php
 markdown: kramdown
 kramdown:
   auto_ids: true
@@ -30,6 +32,7 @@ gems:
 assets:
   cachebust: none
   debug: false
+  digest: false
   assets:
     - "*.png"
   js_compressor: uglifier

@@ -4,6 +4,9 @@ title: Aretha II - Ariel no Fushigi na Tabi (Japan) (Early Beta)
 date: 2008-09-25 20:24:37
 slug: aretha-ii-ariel-no-fushigi-na-tabi-japan-early-beta
 categories: ['Super Famicom']
+download:
+ title: Aretha II - Ariel no Fushigi na Tabi (Japan) (Early Beta)
+ filename: sfc/aretha-ii-ariel-no-fushigi-na-tabi-japan-early-beta.7z
 ---
 
 An interesting RPG for the [Super Famicom](http://superfamicom.org/ "Super Famicom"), [Aretha II - Ariel no Fushigi na Tabi](http://superfamicom.org/info/aretha-2-ariel-no-fushigi-na-bouken/ "Aretha II - Ariel no Fushigi na Tabi") (Japan) (Early Beta). This is an earlier beta than what was already released out there.
