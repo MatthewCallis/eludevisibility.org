@@ -4,6 +4,10 @@ title: Mr. Bloopy - Saves the World (USA)
 date: 2008-12-13 18:04:11
 slug: mr-bloopy-saves-the-world
 categories: ['Super Famicom']
+author: matthew_callis
+download:
+ title: Mr. Bloopy - Saves the World (USA)
+ filename: sfc/mr-bloopy-saves-the-world.7z
 ---
 
 Mr. Bloopy - Saves the World (USA) by Rare, Compedia. A childrens puzzle game. The [box artwork](http://www.felix-3d.com/html/ds_5pa_03bl.htm "Mr. Bloopy Box Art") was done by [Felix Tsetlin](http://www.felix-3d.com/ "Felix Tsetlin") a 3D artist.

@@ -4,6 +4,10 @@ title: Dai-3-ji Super Robot Taisen (Japan) (Rev A)
 date: 2009-01-29 18:41:56
 slug: dai-3-ji-super-robot-taisen-japan-rev-a
 categories: ['Super Famicom']
+author: matthew_callis
+download:
+ title: Dai-3-ji Super Robot Taisen (Japan) (Rev A)
+ filename: sfc/dai-3-ji-super-robot-taisen-japan-rev-a.7z
 ---
 
 So I have time to update, nothing great but still worth while. I have for you today [Dai-3-ji Super Robot Taisen (Japan) (Rev A)](http://superfamicom.org/info/dai-3-ji-super-robot-taisen/ "Dai-3-ji Super Robot Taisen") aka [Super Robot Wars 3](http://superfamicom.org/info/dai-3-ji-super-robot-taisen/ "Super Robot Wars 3"), it's been missing for sometime now but here it is.

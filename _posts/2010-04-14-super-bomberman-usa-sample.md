@@ -4,6 +4,7 @@ title: Super Bomberman (USA) (Sample)
 date: 2010-04-14 15:59:56
 slug: super-bomberman-usa-sample
 categories: ['Super Famicom']
+author: matthew_callis
 ---
 
 Who doesn't love [Super Bomberman](http://superfamicom.org/info/super-bomberman/ "Super Bomberman"), my favorite is [Super Bomberman 3](http://superfamicom.org/info/super-bomberman-3/ "Super Bomberman 3"). I didn't dig through it looking for many difference, if any. The board it came on was bad, had to swap the ROMs to a new board.
@@ -18,5 +19,3 @@ The EEPROM has this written on it:
 1993-05-11 (Kanji?)
 SUM= [3953]
 ```
-
-Email me if you would like the ROM, or any of them. Too many Chinese (actually in China not a generalized term for Asian) sites are hot-linking them and generally scraping my content.

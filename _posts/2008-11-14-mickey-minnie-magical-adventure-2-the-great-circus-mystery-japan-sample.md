@@ -4,6 +4,10 @@ title: Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (S
 date: 2008-11-14 19:50:07
 slug: mickey-minnie-magical-adventure-2-the-great-circus-mystery-japan-sample
 categories: ['Super Famicom']
+author: matthew_callis
+download:
+ title: Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample)
+ filename: sfc/mickey-minnie-magical-adventure-2-the-great-circus-mystery-japan-sample.7z
 ---
 
 Another Capcom sample, just like [Demon's Blazon](/demons-blazon-makai-mura-monshou-hen-japan-sample/ "Demon's Blazon"), we have [Mickey to Minnie - Magical Adventure 2 (Japan) (Sample)](http://superfamicom.org/info/mickey-and-minnie-magical-adventure-2-the-great-circus-mystery/ "Mickey to Minnie - Magical Adventure 2 (Japan) (Sample)") aka [Mickey &amp; Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample)](http://superfamicom.org/info/mickey-and-minnie-magical-adventure-2-the-great-circus-mystery/ "Mickey &amp; Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample)") where all that would appear to be different is 'SAMPLE' pasted up on the title screen's top right corner.

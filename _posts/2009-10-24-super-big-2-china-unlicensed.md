@@ -4,6 +4,7 @@ title: Super Big 2 (China) (Unlicensed)
 date: 2009-10-24 15:22:08
 slug: super-big-2-china-unlicensed
 categories: ['Super Famicom']
+author: matthew_callis
 download:
  title: Super Big 2 (China) (Unlicensed)
  filename: sfc/super-big-2-china-unlicensed.7z

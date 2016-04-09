@@ -4,6 +4,10 @@ title: Power Slide SFX (1994-12-04) (Europe)
 date: 2009-05-18 20:24:05
 slug: power-slide-sfx-1994-12-04-europe
 categories: ['Super Famicom']
+author: matthew_callis
+download:
+ title: Power Slide SFX (1994-12-04) (Europe)
+ filename: sfc/power-slide-sfx-1994-12-04-europe.7z
 ---
 
 So it's be a long time since any update. Sorry. Here's Power Slide SFX, it only works on real hardware at the moment. I don't have any images of it running but I will try to get some soon. It's really buggy when you do get it running, slow and the camera freaks out a lot. But none the less interesting.

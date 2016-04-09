@@ -4,6 +4,10 @@ title: Oraga Land Shusai - Best Farmer Shuukaku-Sai (Japan) (Sample)
 date: 2008-08-24 19:00:00
 slug: oraga-land-shusai-best-farmer-shuukaku-sai-japan-sample
 categories: ['Super Famicom']
+author: matthew_callis
+download:
+ title: Oraga Land Shusai - Best Farmer Shuukaku-Sai (Japan) (Sample)
+ filename: sfc/oraga-land-shusai-best-farmer-shuukaku-sai-japan-sample.7z
 ---
 
 An interesting game for the [Super Famicom](http://superfamicom.org/ "Super Famicom"), [Oraga Land Shusai - Best Farmer Shuukaku-Sai](http://superfamicom.org/info/oraga-land-shusai-best-farmer-senyuken/ "Oraga Land Shusai - Best Farmer Shuukaku-Sai") (Japan) (Sample). Sometime it's titled a little differently on the last few words like [Oraga Land Shusai: Best Farmer Senyuken](http://superfamicom.org/info/oraga-land-shusai-best-farmer-senyuken/ "Oraga Land Shusai: Best Farmer Senyuken") though I don't know which is more correct.

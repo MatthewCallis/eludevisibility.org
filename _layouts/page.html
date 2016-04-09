@@ -12,12 +12,6 @@ layout: default
     {{ page.tagline }}
   </p>
   {{% endif %}}
-  {% if page.author %}
-  <p class="author">
-    <span>Author</span>
-    <h2>{{page.author}}</h2>
-  </p>
-  {% endif %}
   <div class="post-content">
     {{ content }}
     {% if page.download %}

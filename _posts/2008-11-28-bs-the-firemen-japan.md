@@ -4,6 +4,7 @@ title: BS The Firemen (Japan)
 date: 2008-11-28 07:41:26
 slug: bs-the-firemen-japan
 categories: ['Satellaview']
+author: matthew_callis
 download:
  title: BS The Firemen (Japan)
  filename: sfc/the-firemen.7z

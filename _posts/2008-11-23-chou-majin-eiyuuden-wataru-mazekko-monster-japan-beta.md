@@ -4,6 +4,10 @@ title: Chou Majin Eiyuuden Wataru - Mazekko Monster (Japan) (Beta)
 date: 2008-11-23 14:57:05
 slug: chou-majin-eiyuuden-wataru-mazekko-monster-japan-beta
 categories: ['Gameboy']
+author: matthew_callis
+download:
+ title: Chou Majin Eiyuuden Wataru - Mazekko Monster (Japan) (Beta)
+ filename: gb/chou-majin-eiyuuden-wataru-mazekko-monster-japan-beta.7z
 ---
 
 A little different this time, a Super Gameboy / Gameboy beta, Chou Majin Eiyuuden Wataru - Mazekko Monster (Japan) (Beta). This is only 80% done but as far as I could get into it I saw no differences.

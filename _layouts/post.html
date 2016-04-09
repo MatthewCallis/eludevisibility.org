@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
+{% assign author = site.data.authors[page.author] %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h1 class="title" itemprop="name headline">
-      <a class="title-link"  href="{{page.url}}" title="{{page.title}}">
+      <a class="title-link"  href="{{ page.url }}" title="{{ page.title }}">
         {{page.title}}
       </a>
     </h1>
@@ -26,13 +27,10 @@ layout: default
         {% endcase %},
         {{ page.date | date: "%Y" }}
       </time>
+      {% if author %}
+      - <a class="author" href="{{ author.permalink }}" title="{{ author.name }}">{{ author.name }}</a>
+      {% endif %}
     </p>
-    {% if page.author %}
-     <p class="author">
-       <span>Author</span>
-       <h2>{{page.author}}</h2>
-     </p>
-     {% endif %}
   </header>
   <div class="post-content" itemprop="articleBody">
     {{content}}

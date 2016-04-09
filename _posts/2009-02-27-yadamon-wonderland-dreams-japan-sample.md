@@ -4,6 +4,10 @@ title: Yadamon Wonderland Dreams (Japan) (Sample)
 date: 2009-02-27 11:50:04
 slug: yadamon-wonderland-dreams-japan-sample
 categories: ['Super Famicom']
+author: matthew_callis
+download:
+ title: Yadamon Wonderland Dreams (Japan) (Sample)
+ filename: sfc/yadamon-wonderland-dreams-japan-sample.7z
 ---
 
 [Yadamon Wonderland Dreams (Japan) (Sample)](http://superfamicom.org/info/yadamon-wonderland-dreams/ "Yadamon - Wonderland Dreams ROM"). A lot different from the final.
