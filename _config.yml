@@ -10,6 +10,8 @@ title: elude visibility
 description: BS-X, Prototype, Unreleased & Other Unique ROMs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://eludevisibility.org" # the base hostname & protocol for your site
+paginate: 5
+paginate_path: "/page/:num/"
 
 # Build settings
 exclude:
@@ -24,6 +26,7 @@ permalink: /:year/:title
 gzip_zopfli: true
 gems:
   - jekyll-assets
+  - jekyll-paginate
 assets:
   cachebust: none
   debug: false

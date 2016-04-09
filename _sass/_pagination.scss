@@ -1,0 +1,35 @@
+.pagination {
+  text-align: center;
+  margin: 30px 0;
+  display: block;
+  padding-top: 20px;
+  border-top: 1px solid $grey-color-light;
+
+  > * {
+    margin-right: 10px;
+    padding: 8px 15px 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+    font-weight: 300 !important;
+    letter-spacing: 1px;
+  }
+  a, em, span {
+    border-color: $grey-color;
+    color: $grey-color;
+    font-weight: bold;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+
+    &:visited {
+      color: darken($grey-color, 10%);
+    }
+  }
+  em, span {
+    border-color: $grey-color-light;
+    color: $grey-color-light;
+    font-style: normal;
+  }
+}

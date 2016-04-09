@@ -3,6 +3,8 @@
 ---
 @charset "utf-8";
 
+@import "helpers/flex";
+
 // Our variables
 $base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -13,7 +15,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #F2F2F2;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -25,6 +27,14 @@ $content-width:    840px;
 
 $on-palm:          600px;
 $on-laptop:        840px;
+
+$form-height:      2em;
+$form-bg:          #e7eaee;
+$form-primary:     #0393be;
+
+$button-primary-color:  #399aef;
+$button-font-color:     #333333;
+$button-font-color-alt: white;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -40,7 +50,7 @@ $on-laptop:        840px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "layout", "header", "footer", "syntax-highlighting";
+@import "base", "forms", "layout", "header", "pagination", "footer", "syntax-highlighting";
 
 .post {
   font-family: "Source Sans Pro";
@@ -63,12 +73,6 @@ $on-laptop:        840px;
 .archive-intro {
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  text-indent: 2px;
-}
-.hint {
-  text-transform: uppercase;
-  font-size: 11px;
   letter-spacing: 2px;
   text-indent: 2px;
 }

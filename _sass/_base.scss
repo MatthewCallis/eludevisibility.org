@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #aaaaaa;
   text-decoration: none;
+  -webkit-transition: color 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in;
+  -o-transition: color 0.1s ease-in;
+  transition: color 0.1s ease-in;
 
   &:visited {
     color: darken($brand-color, 15%);

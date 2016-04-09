@@ -1,0 +1,276 @@
+// Button and Inset Type
+%form-general {
+  -webkit-appearance: none !important;
+  border-radius: 0.25em;
+  -webkit-transition: 0.15s background-color, 0.15s border-color, 0.15s box-shadow;
+  transition: 0.15s background-color, 0.15s border-color, 0.15s box-shadow;
+  margin: 0 0.2em 0.5em 0;
+  outline: 0;
+  vertical-align: baseline;
+  table & {
+    margin: 0 0.2em 0 0;
+    display: block;
+  }
+}
+
+// Button & Select Type
+%form-button {
+  border: 1px solid scale-color($form-bg, $lightness: -10%);
+  background-color: $form-bg;
+  cursor: pointer;
+  padding: 0 0.8em;
+  box-shadow: 0 1px 0 rgba(white, 0.75) inset, 0 1px 0 rgba(#223447, 0.04);
+  height: $form-height;
+  //vertical-align: top
+  &:hover {
+    border-color: scale-color($form-bg, $lightness: -23%);
+    background-color: scale-color($form-bg, $lightness: -3%);
+    box-shadow: 0 1px 0 rgba(white, 0.5) inset, 0 1px 1px rgba(#223447, 0.1);
+  }
+  &:focus {
+    box-shadow: 0 1px 0 rgba(white, 0.75) inset, 0 0 0.5em rgba($form-primary, 0.5);
+    border-color: $form-primary;
+    outline: 0;
+  }
+}
+
+// Textareas & Inputs
+%form-inset {
+  @extend %form-general;
+  border: 1px solid scale-color($form-bg, $lightness: -30%);
+  background-color: white;
+  cursor: text;
+  padding: 0.5em;
+  width: 100%;
+  &:hover {
+    border-color: scale-color($form-bg, $lightness: -45%);
+    box-shadow: 0 0 0.5em rgba($form-primary, 0), 0 2px 0 $form-bg inset;
+  }
+  &:focus {
+    box-shadow: 0 0 0.5em rgba($form-primary, 0.5), 0 2px 0 $form-bg inset;
+    border-color: $form-primary;
+  }
+}
+
+// Disabled
+%disabled {
+  border: 1px solid scale-color($form-bg, $lightness: -5%);
+  background-color: scale-color($form-bg, $lightness: 50%);
+  cursor: not-allowed;
+  color: scale-color($form-bg, $lightness: -15%);
+  &:focus,
+  &:hover {
+    border-color: scale-color($form-bg, $lightness: -5%);
+    background-color: scale-color($form-bg, $lightness: 50%);
+    box-shadow: 0 0 0 rgba($form-primary, 0), 0 0 0 rgba($form-primary, 0) inset;
+  }
+}
+
+fieldset {
+  border: 0px none;
+  border-bottom: 1px solid #e5eaec;
+  padding-top: 1em;
+  margin-top: 1.5em;
+  padding-bottom: 0.6em;
+}
+
+// Last Row
+fieldset > *:last-child input,
+fieldset > input:last-child,
+fieldset > *:last-child textarea,
+fieldset > textarea:last-child {
+  margin-bottom: 0 !important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+input[type="date"],
+input[type="datetime"],
+textarea,
+select {
+  font-size: 1em;
+}
+
+// Labels
+label {
+  display: block;
+  padding-bottom: 0.25em;
+  em {
+    color: #8a9299;
+  }
+}
+
+// Checkboxes
+input {
+  &[type="checkbox"] {
+    margin-right: 0.5em;
+  }
+}
+
+// Radio
+input.space {
+  &[type="radio"] {
+    margin-right: 0.5em;
+  }
+}
+
+input.space-both {
+  &[type="radio"] {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+
+// Text
+input {
+  &[type="text"],
+  &[type="password"],
+  &[type="email"],
+  &[type="tel"],
+  &[type="number"],
+  &[type="search"],
+  &[type="date"],
+  &[type="datetime"] {
+    @extend %form-general;
+    @extend %form-inset;
+    height: $form-height;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+// Select
+select {
+  @extend %form-general;
+  @extend %form-button;
+  width: 97.5%;
+  overflow: hidden;
+  vertical-align: bottom;
+  white-space: nowrap;
+  padding-right: 2.75em;
+  background-image: inline-image("select-dropdown.svg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+  // for firefox.  removes the arrow
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: "";
+  option {
+    background: white;
+  }
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+@-moz-document url-prefix() {
+  // eew CSS hack.  but Firefox is dumb when it comes to this.
+  select {
+    padding-top: 0.4em;
+    padding-right: 1.4em;
+    outline: 0;
+  }
+}
+
+// Textarea
+textarea {
+  @extend %form-general;
+  @extend %form-inset;
+}
+
+// Disabled & Readonly
+input,
+textarea,
+select,
+button {
+  &[disabled] {
+    @extend %disabled;
+  }
+  &[readonly] {
+    @extend %disabled;
+    color: #8a9299;
+  }
+}
+button {
+  &[disabled] {
+    box-shadow: 0 1px 0 rgba(white, 0.75) inset, 0 1px 0 rgba(#223447, 0.04);
+  }
+}
+
+button {
+  @extend %form-general;
+  @extend %form-button;
+  font-family: "PT Sans", Lato, Lato-Regular, Tahoma, sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+  &.primary {
+    color: white;
+    border-color: scale-color($form-primary, $lightness: -10%);
+    background-color: $form-primary;
+    box-shadow: 0 1px 0 rgba(white, 0.25) inset, 0 1px 0 rgba(#223447, 0.04);
+    &:hover {
+      border-color: scale-color($form-primary, $lightness: -40%);
+      background-color: scale-color($form-primary, $lightness: -15%);
+      box-shadow: 0 1px 0 rgba(white, 0.25) inset, 0 1px 1px rgba(#223447, 0.1);
+    }
+    &:focus {
+      box-shadow: 0 1px 0 rgba(white, 0.25) inset, 0 0 0 1px white, 0 0 7px 2px rgba($form-primary, 0.5);
+      border-color: scale-color($form-primary, $lightness: -25%);
+    }
+  }
+  // Disabled
+  &[disabled] {
+    &,
+    &:hover {
+      box-shadow: 0 0 0 transparent;
+      background: scale-color($form-bg, $lightness: 50%);
+      border-color: $form-bg;
+    }
+  }
+}
+
+
+// Custom
+form {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  input, select, button {
+    width: 100%;
+  }
+
+  .row {
+    padding: 1em;
+    border-bottom: 1px solid #efefef;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+
+    textarea {
+      width: 97.5%;
+    }
+  }
+  p.hint {
+    font-size: 1em;
+    display: block;
+  }
+  button {
+    font-size: 1.5em;
+  }
+}

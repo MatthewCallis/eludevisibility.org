@@ -15,6 +15,16 @@
     padding-left: $spacing-unit / 2;
   }
 }
+.white {
+  background-color: #FFFFFF;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+  padding-bottom: 1.5em;
+}
 
 // Clearfix
 %clearfix {
