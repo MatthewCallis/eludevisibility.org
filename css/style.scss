@@ -63,21 +63,14 @@ $button-font-color-alt: white;
 }
 .archive-intro {
   font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-indent: 2px;
 }
 .post-date {
-  text-transform: uppercase;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", Lato, Helvetica;
   font-size: 16px;
   font-weight: 300;
-  letter-spacing: 2px;
-  text-indent: 2px;
 }
 .post-title {
   font-weight: 400;
-  text-indent: 3px;
 }
 
 // Page / Post
