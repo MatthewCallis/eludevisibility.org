@@ -3,7 +3,7 @@ layout: post
 title: Super Momotarou Dentetsu DX - Jr Nishi-Nihon Presents (Japan)
 date: 2008-06-08 18:28:39
 slug: super-momotarou-dentetsu-dx-jr-nishi-nihon-presents-japan
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Super Momotarou Dentetsu DX - Jr Nishi-Nihon Presents (Japan)

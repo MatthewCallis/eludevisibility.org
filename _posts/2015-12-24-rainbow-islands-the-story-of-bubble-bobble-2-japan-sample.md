@@ -3,7 +3,7 @@ layout: post
 title: Rainbow Islands - The Story of Bubble Bobble 2 (Japan) (Sample)
 date: 2015-12-24 13:43:00
 slug: rainbow-islands-the-story-of-bubble-bobble-2-japan-sample
-categories: ['Famicom']
+category: Famicom
 author: matthew_callis
 download:
  title: Rainbow Islands - The Story of Bubble Bobble 2 (Japan) (Sample)

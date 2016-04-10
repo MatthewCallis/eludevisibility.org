@@ -3,7 +3,7 @@ layout: post
 title: Sim Earth - The Living Planet (Japan) (Rev A)
 date: 2009-10-04 09:54:12
 slug: sim-earth-the-living-planet-japan-rev-a
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Sim Earth - The Living Planet (Japan) (Rev A)

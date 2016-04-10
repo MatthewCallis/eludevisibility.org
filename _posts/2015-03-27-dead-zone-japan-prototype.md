@@ -3,7 +3,7 @@ layout: post
 title: Dead Zone (Japan) (Prototype)
 date: 2015-03-27 23:36:04
 slug: dead-zone-japan-prototype
-categories: ['Famicom Disk System']
+category: Famicom Disk System
 author: matthew_callis
 download:
  title: Dead Zone (Japan) (Prototype)

@@ -3,7 +3,7 @@ layout: post
 title: Power Slide SFX (1994-12-04) (Europe)
 date: 2009-05-18 20:24:05
 slug: power-slide-sfx-1994-12-04-europe
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Power Slide SFX (1994-12-04) (Europe)

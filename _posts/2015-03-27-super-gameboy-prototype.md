@@ -3,7 +3,7 @@ layout: post
 title: J.League Excite Stage '95 (Japan) (Prototype)
 date: 2015-03-27 23:36:04
 slug: j-league-excite-stage-95-japan-prototype
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: J.League Excite Stage '95 (Japan) (Prototype)

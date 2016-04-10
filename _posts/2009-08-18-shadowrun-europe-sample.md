@@ -3,7 +3,7 @@ layout: post
 title: Shadowrun (Europe) (Sample)
 date: 2009-08-18 18:46:44
 slug: shadowrun-europe-sample
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Shadowrun (Europe) (Sample)

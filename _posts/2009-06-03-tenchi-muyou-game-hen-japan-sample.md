@@ -3,7 +3,7 @@ layout: post
 title: Tenchi Muyou! Game Hen (Japan) (Sample)
 date: 2009-06-03 17:45:30
 slug: tenchi-muyou-game-hen-japan-sample
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Tenchi Muyou! Game Hen (Japan) (Sample)

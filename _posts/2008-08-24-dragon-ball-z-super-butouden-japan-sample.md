@@ -3,7 +3,7 @@ layout: post
 title: Dragon Ball Z - Super Butouden (Japan) (Sample)
 date: 2008-08-24 18:28:53
 slug: dragon-ball-z-super-butouden-japan-sample
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Dragon Ball Z - Super Butouden (Japan) (Sample)

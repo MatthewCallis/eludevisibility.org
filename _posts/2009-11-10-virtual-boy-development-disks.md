@@ -3,7 +3,7 @@ layout: post
 title: Virtual Boy Development Disks
 date: 2009-11-10 22:29:00
 slug: virtual-boy-development-disks
-categories: ['Documents']
+category: Documents
 author: matthew_callis
 download:
  title: Virtual Boy Development Disks

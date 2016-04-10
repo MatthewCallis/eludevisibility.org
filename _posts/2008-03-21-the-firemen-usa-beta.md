@@ -3,7 +3,7 @@ layout: post
 title: The Firemen (USA) (Beta)
 date: 2008-03-21 21:51:06
 slug: the-firemen-usa-beta
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: The Firemen (USA) (Beta)

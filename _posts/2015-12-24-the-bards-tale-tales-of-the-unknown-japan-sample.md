@@ -3,7 +3,7 @@ layout: post
 title: The Bard's Tale - Tales of the Unknown (Japan) (Sample)
 date: 2015-12-24 13:43:00
 slug: the-bards-tale-tales-of-the-unknown-japan-sample
-categories: ['Famicom']
+category: Famicom
 author: matthew_callis
 download:
  title: The Bard's Tale - Tales of the Unknown (Japan) (Sample)

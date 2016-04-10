@@ -3,7 +3,7 @@ layout: post
 title: Ganbare Goemon 4 - Kirakira Douchuu - Boku ga Dancer ni Natta Riyuu (Japan) (Revision B)
 date: 2009-01-29 18:41:56
 slug: ganbare-goemon-4-kirakira-douchuu-boku-ga-dancer-ni-natta-riyuu-japan-revision-b
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Ganbare Goemon 4 - Kirakira Douchuu - Boku ga Dancer ni Natta Riyuu (Japan) (Revision B)

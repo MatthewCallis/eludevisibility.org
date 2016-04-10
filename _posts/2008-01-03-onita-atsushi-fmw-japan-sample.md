@@ -3,7 +3,7 @@ layout: post
 title: Onita Atsushi FMW (Japan) (Sample)
 date: 2008-01-03 16:37:42
 slug: onita-atsushi-fmw-japan-sample
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Onita Atsushi FMW (Japan) (Sample)

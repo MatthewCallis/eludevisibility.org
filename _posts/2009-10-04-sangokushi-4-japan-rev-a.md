@@ -3,7 +3,7 @@ layout: post
 title: Sangokushi 4 (Japan) (Rev A)
 date: 2009-10-04 09:54:12
 slug: sangokushi-4-japan-rev-a
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Sangokushi 4 (Japan) (Rev A)

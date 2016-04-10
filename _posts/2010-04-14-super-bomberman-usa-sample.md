@@ -3,7 +3,7 @@ layout: post
 title: Super Bomberman (USA) (Sample)
 date: 2010-04-14 15:59:56
 slug: super-bomberman-usa-sample
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 ---
 

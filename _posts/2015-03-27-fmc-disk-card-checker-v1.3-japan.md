@@ -3,7 +3,7 @@ layout: post
 title: FMC Disk Card Checker Ver 1.3 (Japan)
 date: 2015-03-27 23:36:04
 slug: fmc-disk-card-checker-v1.3-japan
-categories: ['Famicom Disk System']
+category: Famicom Disk System
 author: matthew_callis
 download:
  title: FMC Disk Card Checker Ver 1.3 (Japan)

@@ -3,7 +3,7 @@ layout: post
 title: Dai-3-ji Super Robot Taisen (Japan) (Rev A)
 date: 2009-01-29 18:41:56
 slug: dai-3-ji-super-robot-taisen-japan-rev-a
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Dai-3-ji Super Robot Taisen (Japan) (Rev A)

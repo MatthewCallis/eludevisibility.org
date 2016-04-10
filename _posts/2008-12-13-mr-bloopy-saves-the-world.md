@@ -3,7 +3,7 @@ layout: post
 title: Mr. Bloopy - Saves the World (USA)
 date: 2008-12-13 18:04:11
 slug: mr-bloopy-saves-the-world
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Mr. Bloopy - Saves the World (USA)

@@ -10,5 +10,5 @@ bundle exec jekyll serve --trace
 
 ## Building for Release
 ```
-JEKYLL_ENV=production bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build --trace --config _config_production.yml
 ```

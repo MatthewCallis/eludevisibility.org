@@ -3,7 +3,7 @@ layout: post
 title: Yadamon Wonderland Dreams (Japan) (Sample)
 date: 2009-02-27 11:50:04
 slug: yadamon-wonderland-dreams-japan-sample
-categories: ['Super Famicom']
+category: Super Famicom
 author: matthew_callis
 download:
  title: Yadamon Wonderland Dreams (Japan) (Sample)

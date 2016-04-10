@@ -3,7 +3,7 @@ layout: post
 title: BS Kirby no Omochabako - Pinball (Japan)
 date: 2008-11-26 18:27:17
 slug: bs-kirby-no-omochabako-pinball-japan
-categories: ['Satellaview']
+category: Satellaview
 author: matthew_callis
 download:
  title: BS Kirby no Omochabako - Pinball (Japan)
