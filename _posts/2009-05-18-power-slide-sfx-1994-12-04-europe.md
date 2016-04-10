@@ -20,4 +20,6 @@ So it's be a long time since any update. Sorry. Here's Power Slide SFX, it only 
 ![Power Slide SFX (1994-12-04) (Europe) Broken In Game (ZSNES)]({% asset_path 'screenshots/powerslide/Power-Slide-SFX-(1994-12-04)-(Europe).004.png' %} "Power Slide SFX (1994-12-04) (Europe) Broken In Game (ZSNES)")
 ![Power Slide SFX (1994-12-04) (Europe) Broken In Game (BSNES)]({% asset_path 'screenshots/powerslide/Power-Slide-SFX-(1994-12-04)-(Europe).005.png' %} "Power Slide SFX (1994-12-04) (Europe) Broken In Game (BSNES)")
 
+![Power Slide PCB]({% asset_path 'powerslide-scan.jpg' %} "Power Slide PCB")
+
 Update (2009-06-02): The latest bsnes WIP now supports Power Slide SFX.
