@@ -1,0 +1,187 @@
+// adds required prefixes for keyframes for animations
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+// adds prefixes for animation
+@mixin animation($val...) {
+  -webkit-animation: $val;
+  -moz-animation: $val;
+  -ms-animation: $val;
+  -o-animation: $val;
+  animation: $val;
+}
+
+@mixin animation-fill-mode($val) {
+  -webkit-animation-fill-mode: $val;
+  -moz-animation-fill-mode: $val;
+  -ms-animation-fill-mode: $val;
+  -o-animation-fill-mode: $val;
+  animation-fill-mode: $val;
+}
+
+@mixin animation-delay($val) {
+  -webkit-animation-delay: $val;
+  -moz-animation-delay: $val;
+  -ms-animation: $val;
+  -o-animation-delay-delay: $val;
+  animation-delay: $val;
+}
+
+@mixin mask-size($val) {
+  -webkit-mask-size: $val;
+  -moz-mask-size: $val;
+  -o-mask-size: $val;
+  mask-size: $val;
+}
+
+@mixin mask-image($val) {
+  -webkit-mask-image: $val;
+  -moz-mask-image: $val;
+  -o-mask-image: $val;
+  mask-image: $val;
+}
+
+// Directions
+@include keyframes(diagonal-slide-south-east) {
+  0% { left: 0; top: 0; }
+  100% { left: 100%; top: 100%; }
+}
+
+@include keyframes(diagonal-slide-south-west) {
+  0% { right: 0; top: 0; }
+  100% { right: 100%; top: 100%; }
+}
+
+@include keyframes(diagonal-slide-north-west) {
+  0% { right: 0; bottom: 0; }
+  100% { right: 100%; bottom: 100%; }
+}
+
+@include keyframes(diagonal-slide-north-east) {
+  0% { left: 0; bottom: 0; }
+  100% { left: 100%; bottom: 100%; }
+}
+
+@include keyframes(vertical-slide-south) {
+  0% { top: 0%; }
+  100% { top: 100%; }
+}
+
+@include keyframes(vertical-slide-north) {
+  0% { bottom: 0%; }
+  100% { bottom: 100%; }
+}
+
+@include keyframes(horizontal-slide-west) {
+  0% { right: 0%; }
+  100% { right: 100%; }
+}
+
+@include keyframes(horizontal-slide-east) {
+  0% { left: 0%; }
+  100% { left: 100%; }
+}
+
+// Base Styles
+#sprites {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.sprite {
+  background-repeat: no-repeat;
+  image-rendering: optimizeSpeed;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: optimize-contrast;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+  position: absolute;
+}
+
+// animation-name: example;
+// animation-duration: 5s;
+// animation-timing-function: linear;
+// animation-delay: 2s;
+// animation-iteration-count: infinite;
+// animation-direction: alternate;
+
+// Earthbound / Mother 2 - Ness
+.ness {
+  width: 16px;
+  height: 24px;
+
+  &.north-west {
+    @include animation(diagonal-slide-north-west 30s linear 0s infinite);
+    bottom: 0;
+    right: 0;
+    background-image: url(data:image/gif;base64,R0lGODlhEAAYAPMMAPAAYMiYeJCggMjIyPCQkPDw8PCwkODQIHBw8FBwYPCQADAgIP///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJEAAMACwAAAAAEAAYAEAEfpDJSatcxqzN+2JLYRzIUh6HsqgXUgLAAs9xTC1E0OkW6HqVDkxD3Nw2NVrscyF4gDfSD3VgXjaJnwK1siYSC0FhIAiXvwnL0woavGCYmYyJhCtrH8waugho9kYTOIBqGwE6gYImCCglfBmOVVRcai4lCphsV3JwPWAcn2kTEQAh+QQFEAAMACwAAAAAEAAYAAAEgpBJuapdk1oAzPIexiwDsnDAh57YgpjcicbpKKczLW73uoeX4A8orFACxOJkQShaMqOmExoNXKxUTcBqzLpei4NYBA2PL9RvwqxYtDOLguGwFtvJI4PB5B6/lxZgCoN4cR0vYE9LAwIpFQYpjIUCAgsJaySXIpeYnGuanBKenhWXEhEAOw==);
+  }
+  &.north {
+    @include animation(vertical-slide-north 30s linear 0s infinite);
+    bottom: 0;
+    left: 50%;
+    background-image: url(data:image/gif;base64,R0lGODlhEAAYAPMMAPAAYPCQkMjIyMiYePDw8JCggHBw8PCwkODQIFBwYPCQADAgIP///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJEAAMACwAAAAAEAAYAEAEg5BJuapdk57L68DLUSALYprlQYAAsLSw22IZ09G1LQgVYBg4ygy2mfFst9tkEbg1ayXgxUDKWICK7CKRqDC43YJ4262Al6HK5uDy2oYxmY/Wi8/c6aSa3kw+rQEfHn9QQCcLQIWGCgsKJAYbGhuNJAiMIZFoShlhYjwLYiucZWRgXBIRACH5BAUQAAwALAAAAAAQABgAAASGkEm2ql1zWnBW95UmLADglWaJUYaKoqQpxfFLz9Vrr1fvUx+fpUMZCC9ESuC4WGaaQmdGaawMpFPKL8taIL4Lw+qJEF8MiDFQjFAsFGmDeEY4pL94b4Ho+cC9bn08CwkJbwpuZmpaQlxhLRUCI1kLBAUFkZeYCRKFhhWFC5qEhZ2enhalDBEAOw==);
+  }
+  &.north-east {
+    @include animation(diagonal-slide-north-east 30s linear 0s infinite);
+    bottom: 0;
+    left: 0;
+    background-image: url(data:image/gif;base64,R0lGODlhEAAYAPMMAPAAYMiYeJCggMjIyPCQkPDw8PCwkODQIHBw8FBwYPCQADAgIP///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJEAAMACwAAAAAEAAYAEAEfZDJSatcOOtlzJqLEh7HgpiHUWDAAryw2yInGGgB8VnMRu8UjGf40lxksFYLE9xodJUFqURDlKIikoiWyEgS4IVAIB4UyOCo0+JCemKIAQsZi+2cTs8RL7yB+FBsGAE3TGoaVgc/QFJTJSUmHYwKlCY/PD1FdjxdC50YCRMRACH5BAUQAAwALAAAAAAQABgAAASEkEm2ql0zV7O4AcAlLSEIcOaCDFVpgmSIIG382tVop2GuX8AOhhK8GDi/YicwJCoJTWcQmhkxLQFq9Re4bkeHsGoWnQDDhzJFsVCIE+TqAv0+GArR9vzAVh3LbQpsZBZyFjMzH3hmAiwnFgCNTQsJCSyUCQsCAkOVmZWYoKESop6mCRIRADs=);
+  }
+  &.east {
+    @include animation(horizontal-slide-east 30s linear 0s infinite);
+    top: 50%;
+    left: 0;
+    background-image: url(data:image/gif;base64,R0lGODlhEAAYALMMAPDw8MjIyPCQAJCggODQIPCQkMiYeFBwYHBw8PAAYPCwkDAgIP///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJEAAMACwAAAAAEAAYAAAEeZDJSatdOFuZlVreciVLYpIJoDFleaImEojtiyK4yGW8sbK8hcHg+eiAGB8x9Jn0iszmDqMoWItHztJa8PguRK4wixQWvxcCIYnZLAiCBU5N5sRzOESdqlLT3SF5ehtAgoOEVAoqhE4ndQeQkAsDAQAqkRSRBzyQExEAIfkEBRAADAAsAAAAABAAGAAABI6QSbmqnZjZUhZfmZYsSTkmwCWS5lkiAUiyJoncIGXthqrtC4NBQaxMeEGiYrE8WobKZdFZUXAKytwReiX2QslrUKurQBVfMIFgNqrZN1xIQxAsEGvf0Y64IxQpczt4RH1gcRZ9Mjo9cTh/C4ELAQlLOwcGJTEaMW4UCgmbBweRC6OnpDGjDKMVqKemBwwRADs=);
+  }
+  &.south-east {
+    @include animation(diagonal-slide-south-east 30s linear 0s infinite);
+    top: 0;
+    left: 0;
+    background-image: url(data:image/gif;base64,R0lGODlhEAAYAPMMAPCwkJCggPCQAMjIyPCQkODQIMiYeFBwYPAAYHBw8PDw8DAgIP///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJEAAMACwAAAAAEAAYAEAEi5BJtqqtU1bAweqfsWRLkpTmmXgagiwukprHSC6GAWZkitokF8zleVkol1wlJwJSCIQOB+pcCFC+E+/jmZkwkoN4IQ4oyGfxzfP5vIKvmDA1sCXvwA2X6wGIJjhQUgBUPE8cFQcEThoFFk2MSAWOk5MLjiQKHgKVBScsgFgqWjxjQgcvB4ZjFjVkExEAIfkEBRAADAAsAAABABAAFwAABI6QSbaqrTNXsBdAS0YhIIlwoDWWJpi8Q7iQM/neRyhdBo/tvN7CQPx1ABxksgdUJpEe5s5AIDgBVd1kUb1mRRQrZ3EgaLcVovK8FRTSP9Gi8E7QCwk25U2vvPQLAnMJAApzb2wWhBx5CjlbCH9+HwGPOwqRN4SVlhQBmBcLlToHpaIBZKaqBxKmqaU5ZBIRADs=)
+  }
+  &.south {
+    @include animation(vertical-slide-south 30s linear 0s infinite);
+    top: 0;
+    left: 50%;
+    background-image: url(data:image/gif;base64,R0lGODlhEAAYAPMKAPCwkPDw8PCQkMiYeODQIPAAYFBwYHBw8MjIyDAgIP///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJEAAKACwAAAAAEAAYAEAEi1BJlapNU6YBeurAB2JJEB5oeiRHqBnqUcwJnVFcN2C3xq4JhGHIuxQ+s6ONUhk4m0/LJCEQgDpV3pRAiHG1zBhKKiEGDBX0UD2cFkKhT2WKSNWSyqNvc4kWdx4jgX9VVwBVOzdUcR8CYFNAOyyPHyhcl3YaHpecchk/YysIQmBoNBVCRBloaUStEhEAIfkEBRAACgAsAAAAABAAGAAABI1QSZmqTTOrVEDyXzVdxVecXEkhR5ueJUoZbQ2n2FYN18CLuoTvN7xseABPUqnECJefZFRKGQgEy+SVl0lcs4Brrou1hMeaZ5KroRx2lXc7QSDUWnX0B1+v13J7CXd/AAGAHn2JUWMWgy6MBggIgoJ/XQaYk5VAI5iRFigGEp4JpAYVBoaYo6eomBaiChEAOw==)
+  }
+  &.south-west {
+    @include animation(diagonal-slide-south-west 30s linear 0s infinite);
+    top: 0;
+    right: 0;
+    background-image: url(data:image/gif;base64,R0lGODlhEAAYAPMMAPCwkJCggPCQAMjIyPCQkODQIMiYeFBwYPAAYHBw8PDw8DAgIP///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJEAAMACwAAAAAEAAYAAAEipBJtqqtMy8EVveYdCEeYm6kOCQsapKneLD0iy5TZVy7lS+GoK7noxg6gKQHGQIilUklTkQgRJPVnaZ6BVSn20MFC85QosKyRmcpqCmJBa0lKC/chTzeDfbE53JxGh0JegV1AAp2gYBKZoGMcW9wfy1mEmIImSQHBxmdCwpiCgGgnZ4TYguqFZ0TEQAh+QQFEAAMACwAAAEAEAAXAAAEjpBJtqqtMy8EVveYdCEeYm6kOCQsapKneLD0iy5TZVy7lS+GoK7noxg6gKQHGQIilUklTkQgRJPVnaZ6BVSn20MFC85QosKQmQKsFATlXKJATyzocUrrXriX3X0KAHMLcDkHCgt2SXZqFAcBHI2KCSkykIM0lYkakBcbCgFTB2KkC6RiAaKoEmKnqK6kEhEAOw==);
+  }
+  &.west {
+    @include animation(horizontal-slide-west 30s linear 0s infinite);
+    top: 50%;
+    right: 0;
+    background-image: url(data:image/gif;base64,R0lGODlhEAAYAPMMAHBw8MjIyPCQAPCwkDAgIODQIPCQkMiYeFBwYPAAYPDw8JCggP///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJEAAMACwAAAAAEAAYAEAEeZDJSeskA49xSCdgRQDkCBACIREBkLzEK8fq1Rk4V1sMoWwhXg8IDF5AH5ByN9zgDBklDwkqFJgXUglIQXh9isCC4C1blsajLxGbsbMktgz2Xmk4SWnzvsnbnDk6UwcbOnoiViUCV2dWVj5RZ1olWBRtdTxfSmUIExEAIfkEBRAACwAsAAAAABAAGAAABI1wSUmqnZgaQ/adlpIQSTmOVACYpHkSFCCfLglT1WHtNz78Bx0PNCD8BjphhfIzHpE74m9jKH4oh+kG2APpqNCM96jsggjCQsEMkskIarZFDSAI1mKCYvCuC8wEAD8FdVcLMBWFgW8gCkZ1bm9ChwElBwg8AwkBNwSVRRgWnAsImJylqJiOpaSYqagVrBEAOw==);
+  }
+}

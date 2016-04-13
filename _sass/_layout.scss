@@ -6,7 +6,6 @@
   margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
-  @extend %clearfix;
 
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
@@ -16,7 +15,7 @@
   }
 }
 .white {
-  background-color: #FFFFFF;
+  background-color: rgba(255,255,255,0.95);
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
   border-radius: 1px;
@@ -24,27 +23,4 @@
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
   padding-bottom: 1.5em;
-}
-
-// Clearfix
-%clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-// Icons
-.icon {
-  > svg {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-
-    path {
-      fill: $grey-color;
-    }
-  }
 }

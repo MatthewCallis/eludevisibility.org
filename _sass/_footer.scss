@@ -3,7 +3,7 @@
   background-image: url("https://snes.in/site/bg/background-som-neko.png");
   background-repeat: repeat-x;
   background-position: bottom center;
-  padding-bottom: 400px;
+  padding-bottom: 600px;
 }
 .footer-heading {
   font-size: 18px;
@@ -23,7 +23,6 @@
   font-size: 15px;
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
 }
 .footer-content {
   font-family: "Josefin Sans";
