@@ -25,3 +25,5 @@ It actually looks better than the European version with a much improved font. It
 ![FIREMEN_BETA_CONFIG.png]({% asset_path 'screenshots/FIREMEN_BETA_CONFIG.png' %})
 ![FIREMEN_EURO_CONFIG.png]({% asset_path 'screenshots/FIREMEN_EURO_CONFIG.png' %})
 ![FIREMEN_JAPAN_CONFIG.png]({% asset_path 'screenshots/FIREMEN_JAPAN_CONFIG.png' %})
+
+Write up at [SNESCentral](http://www.snescentral.com/review.php?id=0829&num=0&fancy=yes&article=proto).
