@@ -24,3 +24,6 @@ Purchased on Yahoo! Japan.
 Write up at [SNESCentral](http://www.snescentral.com/review.php?id=0842&num=1&fancy=yes&article=proto).
 
 Write up at [pantalytron.com](http://pantalytron.com/blog7.php/bounty-sword-80-beta)
+
+![PCB]({% asset_path 'Bounty Sword (Japan) (Sample 80) - PCB.jpg' %})
+![Sample Label]({% asset_path 'Bounty Sword (Japan) (Sample 80) - Sample Label.jpg' %})
