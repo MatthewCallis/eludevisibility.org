@@ -50,7 +50,7 @@ $button-font-color-alt: white;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "forms", "layout", "header", "pagination", "footer", "syntax-highlighting", "sprite-animations";
+@import "base", "forms", "layout", "header", "pagination", "footer", "syntax-highlighting", "sprite-animations", "compare";
 
 .post {
   font-family: "Source Sans Pro";

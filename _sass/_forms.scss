@@ -144,41 +144,6 @@ input {
   }
 }
 
-// Select
-select {
-  @extend %form-general;
-  @extend %form-button;
-  width: 97.5%;
-  overflow: hidden;
-  vertical-align: bottom;
-  white-space: nowrap;
-  padding-right: 2.75em;
-  background-image: inline-image("select-dropdown.svg");
-  background-position: center right;
-  background-repeat: no-repeat;
-  margin-top: 1px;
-  // for firefox.  removes the arrow
-  -moz-appearance: none;
-  text-indent: 0.01px;
-  text-overflow: "";
-  option {
-    background: white;
-  }
-}
-
-select::-ms-expand {
-  display: none;
-}
-
-@-moz-document url-prefix() {
-  // eew CSS hack.  but Firefox is dumb when it comes to this.
-  select {
-    padding-top: 0.4em;
-    padding-right: 1.4em;
-    outline: 0;
-  }
-}
-
 // Textarea
 textarea {
   @extend %form-general;
@@ -236,7 +201,6 @@ button {
     }
   }
 }
-
 
 // Custom
 form {

@@ -1,0 +1,66 @@
+// http://lea.verou.me/2014/07/image-comparison-slider-with-pure-css/
+// http://thenewcode.com/819/A-Before-And-After-Image-Comparison-Slide-Control-in-HTML5
+.comparison-container {
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.08);
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+
+  .comparison {
+    position: relative;
+    display: inline-block;
+
+    .container {
+      padding-bottom: 0.5em;
+
+      .divisor {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        max-width: 100%;
+        overflow: hidden;
+        vertical-align: top;
+        transition: border 0.25s ease;
+        border-right: 1px solid transparent;
+
+        img {
+          border: 1px solid #f77;
+        }
+
+        &.inline {
+          position: relative;
+          display: inline-block;
+        }
+      }
+    }
+    img {
+      user-select: none;
+      -ms-user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      max-width: 256px;
+      box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
+      border: 1px solid #63c363;
+    }
+    input.slider, select {
+      display: block;
+      width: 100%;
+      margin-bottom: 0.25em;
+    }
+
+    &:hover {
+      .container {
+        .divisor {
+          border-right: 1px solid rgba(248, 240, 136, 0.9);
+          &.inline {
+            border: 0;
+          }
+        }
+      }
+    }
+  }
+}
