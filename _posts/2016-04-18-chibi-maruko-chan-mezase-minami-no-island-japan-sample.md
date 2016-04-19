@@ -37,7 +37,7 @@ The opening scene is not animated like it is in the final, and beginning a game 
 {% include compare_local.html
     name_1='Title - Final'
     image_1='screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/title.png'
-    name_1='Title - Sample'
+    name_2='Title - Sample'
     image_2='screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/title-sample.png'
 %}
 
@@ -47,7 +47,7 @@ Noticeably different is the balloon baskets, banner and the lower cloud is gone.
 {% include compare_local.html
     name_1='Balloon Select - Final'
     image_1='screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/balloon-select.png'
-    name_1='Balloon Select - Sample'
+    name_2='Balloon Select - Sample'
     image_2='screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/balloon-select-sample.png'
 %}
 
@@ -57,7 +57,7 @@ Noticeably different is the balloon setup, mountain and words.
 {% include compare_local.html
     name_1='Mountain - Final'
     image_1='screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/mountain.png'
-    name_1='Mountain - Sample'
+    name_2='Mountain - Sample'
     image_2='screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/mountain-sample.png'
 %}
 
@@ -71,7 +71,7 @@ _VS Screen - Final_  / _Sample_
 {% include compare_local.html
     name_1='VS Screen - Final'
     image_1='screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/vs.png'
-    name_1='VS Screen - Sample'
+    name_2='VS Screen - Sample'
     image_2='screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/vs-sample.png'
 %}
 
@@ -85,6 +85,6 @@ The main path of just confirming every dialog has changed, final appears to be a
 {% include compare_local.html
     name_1='In Game - Final'
     image_1='screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/in-game.png'
-    name_1='In Game - Sample'
+    name_2='In Game - Sample'
     image_2='screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/in-game-sample.png'
 %}
