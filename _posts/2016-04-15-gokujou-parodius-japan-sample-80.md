@@ -32,69 +32,121 @@ Interleaved: None                        SRAM: 0 Kb
 
 Whatever is listed as a Beta that is floating around now doesn't seem very different, and at least much later than this cart.
 
-_Final_  / _Sample_
+_Title - Final_  / _Sample_
+{% include compare.html
+    name_1='Title - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.0.png'
+    name_1='Title - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-title.png'
+%}
 
-![Title - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.0.png)
-![Title - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-title.png' %})
-
-_Sample_
+_Title Sign 1 & 2 - Sample_
 
 "The best Parodius, 極パロ end of year scheduled release (年末発売予定) buy! かってかって　but.... なんだけど。" - [Gaijillionaire](https://twitter.com/Gaijillionaire/status/720822237817769984)
 
 ![Title - Sign 1]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-title-sign-1.png' %})
 ![Title - Sign 2]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-title-sign-2.png' %})
 
-_Final_  / _Sample_
+_Options - Final_  / _Sample_
+{% include compare.html
+    name_1='Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.1.png'
+    name_1='Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-options.png'
+%}
 
-![Options - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.1.png)
-![Options - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-options.png' %})
+_Intro Screen 1 - Final_  / _Sample_
+{% include compare.html
+    name_1='Intro 1 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.2.png'
+    name_1='Intro 1 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-intro-1.png'
+%}
 
-_Final_  / _Sample_
-
-![Intro 1 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.2.png)
-![Intro 1 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-intro-1.png' %})
-
-_Sample_
+_Intro 2 & 3 - Sample_
 
 ![Intro 2 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-intro-2.png' %})
 ![Intro 3 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-intro-3.png' %})
 
-_Final_  / _Sample_
+_Characters - Final_  / _Sample_
+{% include compare.html
+    name_1='Character 1 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.3.png'
+    name_1='Character 1 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-1.png'
+%}
 
-![Character 1 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.3.png)
-![Character 1 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-1.png' %})
+{% include compare.html
+    name_1='Character 2 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.4.png'
+    name_1='Character 2 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-2.png'
+%}
 
-![Character 2 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.4.png)
-![Character 2 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-2.png' %})
+{% include compare.html
+    name_1='Character 3 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.5.png'
+    name_1='Character 3 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-3.png'
+%}
 
-![Character 3 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.5.png)
-![Character 3 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-3.png' %})
+{% include compare.html
+    name_1='Character 4 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.6.png'
+    name_1='Character 4 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-4.png'
+%}
 
-![Character 4 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.6.png)
-![Character 4 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-4.png' %})
+{% include compare.html
+    name_1='Character 5 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.7.png'
+    name_1='Character 5 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-5.png'
+%}
 
-![Character 5 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.7.png)
-![Character 5 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-5.png' %})
+{% include compare.html
+    name_1='Character 6 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.8.png'
+    name_1='Character 6 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-6.png'
+%}
 
-![Character 6 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.8.png)
-![Character 6 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-6.png' %})
+{% include compare.html
+    name_1='Character 7 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.9.png'
+    name_1='Character 7 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-7.png'
+%}
 
-![Character 7 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.9.png)
-![Character 7 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-7.png' %})
+{% include compare.html
+    name_1='Character 8 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.10.png'
+    name_1='Character 8 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-8.png'
+%}
 
-![Character 8 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.10.png)
-![Character 8 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-8.png' %})
+{% include compare.html
+    name_1='Character 9 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.11.png'
+    name_1='Character 9 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-9.png'
+%}
 
-![Character 9 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.11.png)
-![Character 9 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-9.png' %})
+{% include compare.html
+    name_1='Character 10 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.12.png'
+    name_1='Character 10 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-10.png'
+%}
 
-![Character 10 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.12.png)
-![Character 10 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-10.png' %})
+{% include compare.html
+    name_1='Character 11 - Final'
+    image_1='https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.13.png'
+    name_1='Character 11 - Sample'
+    image_2='screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-11.png'
+%}
 
-![Character 10 - Final](https://snes.in/screenshots/gokujou-parodius/gokujou-parodius.13.png)
-![Character 10 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-11.png' %})
-
-_Sample_
+_Pre-Game - Sample_
 
 ![Character 10 - Sample]({% asset_path 'screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-characters-12.png' %})
 
