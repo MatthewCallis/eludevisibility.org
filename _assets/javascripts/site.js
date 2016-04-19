@@ -67,9 +67,6 @@ else {
 var comparisons = document.querySelectorAll('.comparison');
 for (var i = 0, l = comparisons.length; i < l; ++i) {
   var comparison = comparisons[i];
-  setupSliders(comparison);
-  setupTypes(comparison);
-  setupBlendMode(comparison);
 
   var divisor = comparison.querySelector(".divisor");
   divisor.classList.add('inline');
@@ -77,6 +74,10 @@ for (var i = 0, l = comparisons.length; i < l; ++i) {
   divisor.style.opacity = 1;
   divisor.style['mix-blend-mode'] = 'normal';
   toggleSlider(comparison, true);
+
+  setupSliders(comparison);
+  setupTypes(comparison, i);
+  setupBlendMode(comparison);
 }
 
 function setupSliders(comparison){
@@ -111,17 +112,43 @@ function toggleSlider(comparison, state){
   comparison.querySelector("select.blend-mode").disabled = state;
 }
 
-function setupTypes(comparison){
+function setupTypes(comparison, comparison_index){
   var inputs = comparison.querySelectorAll('input.types');
   var slider = comparison.querySelector("input.slider");
+  var divisor = comparison.querySelector(".divisor");
   for (var i = 0, l = inputs.length; i < l; ++i) {
     var input = inputs[i];
+    input.name = input.name + '_' + comparison_index;
     input.addEventListener('change', function(event){
       // Trigger Slider
       var new_event = document.createEvent('HTMLEvents');
       new_event.initEvent('input', true, false);
       slider.dispatchEvent(new_event);
+
+      var type = comparison.querySelector("input.types:checked");
+      if (type.value === 'slider') {
+        divisor.classList.remove('inline');
+        divisor.style.width = "50%";
+        divisor.style.opacity = 1;
+        toggleSlider(comparison, false);
+      }
+      else if (type.value === 'onion') {
+        divisor.classList.remove('inline');
+        divisor.style.width = "100%";
+        divisor.style.opacity = .5;
+        toggleSlider(comparison, false);
+      }
+      else if (type.value === 'inline') {
+        divisor.classList.add('inline');
+        divisor.style.width = "auto";
+        divisor.style.opacity = 1;
+        divisor.style['mix-blend-mode'] = 'normal';
+        toggleSlider(comparison, true);
+      }
     });
+    if (input.classList.contains('type-inline')){
+      input.checked = true;
+    }
   }
 }
 
