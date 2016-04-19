@@ -10,7 +10,7 @@ download:
  filename: sfc/bounty-sword-japan-sample-80.7z
 ---
 
-__バウンティ ソード__
+__[バウンティ ソード](https://superfamicom.org/info/bounty-sword)__
 
 ```
 開発ROM Ver.1
@@ -21,7 +21,7 @@ __バウンティ ソード__
 
 Purchased on Yahoo! Japan.
 
-Write up at [SNESCentral](http://www.snescentral.com/review.php?id=0842&num=1&fancy=yes&article=proto).
+Write up at [SNESCentral](http://www.snescentral.com/review.php?id=0882&num=0&fancy=yes&article=proto).
 
 Write up at [pantalytron.com](http://pantalytron.com/blog7.php/bounty-sword-80-beta)
 
