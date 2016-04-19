@@ -114,6 +114,7 @@
 }
 .sprite {
   background-repeat: no-repeat;
+  position: absolute;
   image-rendering: optimizeSpeed;
   image-rendering: -o-crisp-edges;
   image-rendering: -moz-crisp-edges;
@@ -121,7 +122,6 @@
   image-rendering: -webkit-optimize-contrast;
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
-  position: absolute;
 }
 
 // animation-name: example;

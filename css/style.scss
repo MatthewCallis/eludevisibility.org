@@ -64,7 +64,8 @@ $button-font-color-alt: white;
 .archive-intro {
   font-size: 14px;
 }
-.post-date {
+.post-date, .post-category {
+  display: inline-block;
   font-family: "Source Sans Pro", Lato, Helvetica;
   font-size: 16px;
   font-weight: 300;

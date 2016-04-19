@@ -3,48 +3,71 @@ layout: default
 ---
 <div class="home">
   {% for post in paginator.posts %}
-  <div class="post">
-    <div class="post-date">
-      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-    </div>
-    {% if post.category %}
-    <div class="post-category">
-      {{post.category}}
-    </div>
-    {% endif %}
-    <div class="post-title">
-      <a class="post-link" href="{{post.url}}" title="{{post.title}}">
-        {{post.title}}
-      </a>
-    </div>
-    <div class="post-excerpt">
-      {{post.content}}
+  {% assign author = site.data.authors[post.author] %}
+  <div class="wrapper white">
+    <div class="post">
+      <div class="post-title">
+        <a class="post-link" href="{{post.url}}" title="{{post.title}}">
+          {{post.title}}
+        </a>
+      </div>
+
+      <div class="post-date">
+        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ post.date | date: "%A" }}
+          {% assign d = post.date | date: "%-d" %}
+          {% assign m = post.date | date: "%B" %}
+          {% case m %}
+            {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
+            {% when 'September' %}Sept.
+            {% else %}{{ post.date | date: "%b" }}.
+          {% endcase %}
+          {% case d %}
+            {% when '1' or '21' or '31' %}{{ d }}st
+            {% when '2' or '22' %}{{ d }}nd
+            {% when '3' or '23' %}{{ d }}rd
+            {% else %}{{ d }}th
+          {% endcase %},
+          {{ post.date | date: "%Y" }}
+        </time>
+      </div>
+      {% if post.category %}
+      - <em class="post-category">{{post.category}}</em>
+      {% endif %}
+      {% if author %}
+      - <a class="author" href="{{ author.permalink }}" title="{{ author.name }}">{{ author.name }}</a>
+      {% endif %}
+      <div class="post-excerpt">
+        {{post.content}}
+      </div>
     </div>
   </div>
   {% endfor %}
   {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <em>{{ page }}</em>
-      {% elsif page == 1 %}
-        <a href="/">{{ page }}</a>
+  <div class="wrapper white">
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | replace: '//', '/' }}">&laquo; Prev</a>
       {% else %}
-        <a href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        <span>&laquo; Prev</span>
       {% endif %}
-    {% endfor %}
 
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <em>{{ page }}</em>
+        {% elsif page == 1 %}
+          <a href="/">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | replace: '//', '/' }}">Next &raquo;</a>
+      {% else %}
+        <span>Next &raquo;</span>
+      {% endif %}
+    </div>
   </div>
   {% endif %}
 </div>

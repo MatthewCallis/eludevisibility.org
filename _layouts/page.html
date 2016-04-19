@@ -1,25 +1,27 @@
 ---
 layout: default
 ---
-<article class="post">
-  <h1 class="title" itemprop="name headline">
-    <a class="title-link"  href="{{page.url}}" title="{{page.title}}">
-      {{page.title}}
-    </a>
-  </h1>
-  {{% if page.tagline %}}
-  <p class="post-meta">
-    {{ page.tagline }}
-  </p>
-  {{% endif %}}
-  <div class="post-content">
-    {{ content }}
-    {% if page.download %}
-    <hr/>
-    <h2>Download</h2>
-    <p class="author">
-      <a href="/d.php?file={{page.download.filename}}" title="{{page.download.title}}" download>Download {{page.download.title}}</a>
+<div class="wrapper white">
+  <article class="post">
+    <h1 class="title" itemprop="name headline">
+      <a class="title-link"  href="{{page.url}}" title="{{page.title}}">
+        {{page.title}}
+      </a>
+    </h1>
+    {{% if page.tagline %}}
+    <p class="post-meta">
+      {{ page.tagline }}
     </p>
-    {% endif %}
-  </div>
-</article>
+    {{% endif %}}
+    <div class="post-content">
+      {{ content }}
+      {% if page.download %}
+      <hr/>
+      <h2>Download</h2>
+      <p class="author">
+        <a href="/d.php?file={{page.download.filename}}" title="{{page.download.title}}" download>Download {{page.download.title}}</a>
+      </p>
+      {% endif %}
+    </div>
+  </article>
+</div>
