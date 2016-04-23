@@ -10,11 +10,11 @@ download:
  filename: sfc/pikiinya-japan-sample.7z
 ---
 
-An interesting penguin themed puzzle game.
+An interesting penguin themed puzzle game. Write up at [SNESCentral](http://www.snescentral.com/review.php?id=1051&num=0&fancy=yes&article=proto).
 
 _Title - Final_  / _Sample_
 
-The title is slightly different, but the logo is still animated, so that isn't aligned between the two _Title_ images.
+The title is slightly different, but the logo is still animated, so that isn't aligned between the two _Title_ images. There is no intro demo where he runs laps in the sample.
 {% include compare_local.html
     name_1='Title - Final'
     image_1='screenshots/pikiinya-japan-sample/title.png'
@@ -22,7 +22,7 @@ The title is slightly different, but the logo is still animated, so that isn't a
     image_2='screenshots/pikiinya-japan-sample/title-sample.png'
 %}
 
-_Game Select 2 - Final_  / _Sample_
+_Game Select 1 - Final_  / _Sample_
 
 The first game select screen is quite different, but I'm not familiar with the game enough to know exactly what each one does.
 {% include compare_local.html
@@ -31,6 +31,10 @@ The first game select screen is quite different, but I'm not familiar with the g
     name_2='Game Select - Sample'
     image_2='screenshots/pikiinya-japan-sample/game-select-1-sample.png'
 %}
+
+There is a Music and Sprite Test in the place of the 2 penguin icon for mono or stereo. All the buttons seem to do different things here. Any feedback on what does what is welcome!
+
+![Music & Sprite Test - Sample]({% asset_path 'screenshots/pikiinya-japan-sample/sprite-test-sample.png' %} "Music & Sprite Test - Sample")
 
 _Game Select 2 - Final_  / _Sample_
 
@@ -41,6 +45,10 @@ The second game select screen is also quite different, but again I'm not familia
     name_2='Game Select - Sample'
     image_2='screenshots/pikiinya-japan-sample/game-select-2-sample.png'
 %}
+
+The last icon has what looks like time trials for the lap game, that wasn't on this screen in the final.
+
+![Time Trial - Sample]({% asset_path 'screenshots/pikiinya-japan-sample/runner-sample.png' %} "Time Trial - Sample")
 
 _Player Select - Final_  / _Sample_
 
@@ -80,6 +88,26 @@ The lettering is brighter in the sample, but that was all I noticed.
     image_1='screenshots/pikiinya-japan-sample/game-play.png'
     name_2='Game Play - Sample'
     image_2='screenshots/pikiinya-japan-sample/game-play-sample.png'
+%}
+
+_Intro - Final_  / _Sample_
+
+The background is much more subtle in the final version, and some type is set differently.
+{% include compare_local.html
+    name_1='Intro - Final'
+    image_1='screenshots/pikiinya-japan-sample/intro.png'
+    name_2='Intro - Sample'
+    image_2='screenshots/pikiinya-japan-sample/intro-sample.png'
+%}
+
+_Controller - Final_  / _Sample_
+
+Again the background is much more subtle in the final version, and some title type is a differently color.
+{% include compare_local.html
+    name_1='Controller - Final'
+    image_1='screenshots/pikiinya-japan-sample/controller.png'
+    name_2='Controller - Sample'
+    image_2='screenshots/pikiinya-japan-sample/controller-sample.png'
 %}
 
 After a soft reset there was a second title screen I couldn't get to show in the final version of the game.
