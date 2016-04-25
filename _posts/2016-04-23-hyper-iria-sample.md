@@ -10,7 +10,7 @@ download:
  filename: sfc/hyper-iria-sample.7z
 ---
 
-__[ハイパーイリア](http://superfamicom.org/info/hyper-iria)__
+__[ハイパーイリア](https://superfamicom.org/info/hyper-iria)__
 
 A very early, sample cart. Claiming to be 70% complete on the cart label. From July 3rd, with a planned release date of September 30th, which it didn't make as it was released on October 13th, 1995.
 
