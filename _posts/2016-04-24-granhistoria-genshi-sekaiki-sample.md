@@ -140,7 +140,6 @@ You can see more of work on typographic error restoration on their website, [「
 
 ---
 
-
 _From [Liana Kerr](https://twitter.com/lianaleslie):_
 
 So far I just feel grateful they changed that blocky mess they were using for the typeface. There are minor differences in the text, such as changing "it's truly like a dream" to "I'm truly happy" and spacing it better. The major differences increase emotional impact or clarify. The scene where Toll (the blue haired guy) dies particularly. He walks away slowly, the way the text is spaced is more dramatic, he says his fiancée's name one more time (Lu). Instead of going straight to the name screen, Chronicle (white orb) explains that in this world you need a name. After naming, in the old version it reads "20 years until the end of the world" (the countdown continues through the game), Chronicle in the finished version explains that you've been granted 20 years, after which you can no longer stay in this world.
@@ -154,6 +153,8 @@ New: "So that's the girl Toll would have married tomorrow... Sleep well, poor gi
 Which is one of the most poignant lines in the game, I think. So I'd imagine there's lines like that all over. From a cursory look at the villagers, they say the same things but their locations are different. So while the second screenshot you posted of talking to a villager looks very different, the content is just switched. The next big sequence also plays out a little more dramatically in the final version, though the content is about the same, because a bandit attack on a wedding to steal part of a mechanical god isn't complete without someone yelling "Die!".
 
 Then there are several differences in the timeline and character list (select 世界記 from the menu to see both). Mostly minor; one minor character was cut from the final list, and a couple more were added. Some don't have final sprites, and there are some events shuffled around in the timeline, and some that aren't described. It's the saddest, most ambitious game from that era I can think of, and although it's flawed I love it.
+
+There was a major change to the character screen -- the very last guy, Kain, never should have been there. It's a plot point that you don't know anything about him at the beginning of the game. So it's interesting he was there at all.
 
 {% include compare_local.html
     name_1='Status - Final'

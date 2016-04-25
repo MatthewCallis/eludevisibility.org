@@ -28,7 +28,7 @@
         border-right: 1px solid transparent;
 
         img {
-          border: 1px solid #f77;
+          border: 1px solid #ff7777;
         }
 
         &.inline {
@@ -57,7 +57,7 @@
         .divisor {
           border-right: 1px solid rgba(248, 240, 136, 0.9);
           &.inline {
-            border: 0;
+            border-color: transparent;
           }
         }
       }
