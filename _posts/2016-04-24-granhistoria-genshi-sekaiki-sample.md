@@ -57,6 +57,13 @@ _Title - Final_  / _Sample_
 
 The title is different with the hero having a cape on and the logo letting not having a gradient as it does in in the final version.
 
+_From [gh_ips_patch](https://twitter.com/gh_ips_patch/status/724553358703366144):_
+電源ON直後のメーカーロゴ
+
+Final：無音
+
+Sample：ロゴの表示と同時に音楽が再生される。
+
 {% include compare_local.html
     name_1='Title - Final'
     image_1='screenshots/granhistoria-genshi-sekaiki-sample/title.png'
@@ -67,6 +74,9 @@ The title is different with the hero having a cape on and the logo letting not h
 _Intro - Final_  / _Sample_
 
 The intro wording has changed slightly, gone from less kanji to more kanji. They typeface itself is also slightly different. The color fades in and out and was caught mid animation.
+
+_From [gh_ips_patch](https://twitter.com/gh_ips_patch/status/724554946620739585):_
+OPデモに使われているシーン（映画の予告CMの様に、主要シーンがいくつか入る）が無い。歴史年表は、製品版とは別の場所を指していたりしています。
 
 {% include compare_local.html
     name_1='Intro - Final'
@@ -111,6 +121,39 @@ The name entry is missing the numbers in the sample version.
 _Final_  / _Sample_
 
 The game is very different, especially the intro routine, but how or what is happening I can't speak to. Hopefully someone knowledgable will chime in.
+
+__Update: April 25th, 2016__ Some kind folks have chimed in!
+
+_From [gh_ips_patch](https://twitter.com/gh_ips_patch/status/724622262704295936):_
+歴史一覧の部分、製品版と結構違う（でもこれはストーリーが進行すると書き換わるので、イベントが減った/増えたとなる訳では無いと思う）
+
+_From [gh_ips_patch](https://twitter.com/gh_ips_patch/status/724624358988083200):_
+セリフは、違いが沢山ありすぎて書き出せません。推敲前の文章のような、荒削りな感じを受けます。
+
+_From [gh_ips_patch](https://twitter.com/gh_ips_patch/status/724624624827289600):_
+効果音が少ない。就寝時、回復アイテム使用時。
+
+_From [gh_ips_patch](https://twitter.com/gh_ips_patch/status/724625426681749504):_
+盗賊の森で盗賊と戦ったあと、製品版ではイベントになるのですが、サンプル版はタンドとガイナスターが出てきて連戦になります。あっさりとゲームオーバーになりました。
+
+You can see more of work on typographic error restoration on their website, [「グランヒストリア～幻史世界記～」 誤植修正ips-patch配布所 （兼、製作記録）](http://granhistoria.x0.com/).
+
+---
+
+
+_From [Liana Kerr](https://twitter.com/lianaleslie):_
+
+So far I just feel grateful they changed that blocky mess they were using for the typeface. There are minor differences in the text, such as changing "it's truly like a dream" to "I'm truly happy" and spacing it better. The major differences increase emotional impact or clarify. The scene where Toll (the blue haired guy) dies particularly. He walks away slowly, the way the text is spaced is more dramatic, he says his fiancée's name one more time (Lu). Instead of going straight to the name screen, Chronicle (white orb) explains that in this world you need a name. After naming, in the old version it reads "20 years until the end of the world" (the countdown continues through the game), Chronicle in the finished version explains that you've been granted 20 years, after which you can no longer stay in this world.
+
+Which raises even more questions, but does count as some sort of clarification to what is a confusing intro sequence. The difference I found most interesting and showed how the emotional level was increased was when Red Sphere (RS) sees Lu. He is inhabiting her fiancée's body and they have an awkward conversation. He comments on her after she's gone.
+
+Old: "Good night. So that was the girl who is to be married tomorrow?"
+
+New: "So that's the girl Toll would have married tomorrow... Sleep well, poor girl..."
+
+Which is one of the most poignant lines in the game, I think. So I'd imagine there's lines like that all over. From a cursory look at the villagers, they say the same things but their locations are different. So while the second screenshot you posted of talking to a villager looks very different, the content is just switched. The next big sequence also plays out a little more dramatically in the final version, though the content is about the same, because a bandit attack on a wedding to steal part of a mechanical god isn't complete without someone yelling "Die!".
+
+Then there are several differences in the timeline and character list (select 世界記 from the menu to see both). Mostly minor; one minor character was cut from the final list, and a couple more were added. Some don't have final sprites, and there are some events shuffled around in the timeline, and some that aren't described. It's the saddest, most ambitious game from that era I can think of, and although it's flawed I love it.
 
 {% include compare_local.html
     name_1='Status - Final'
