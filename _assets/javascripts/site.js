@@ -1,39 +1,81 @@
 var bgs = [
-  'background-ct-12000.png',
   'background-dk.png',
-  'background-mario-blue-lumps.png',
-  'background-mario-green-hills.png',
-  'background-mario-green-mountains.png',
-  'background-mario-mountains.png',
-  'background-mario-tree-tops.png',
   'background-mario2-w1a2.png',
-  'background-som-goblin.png',
-  'background-som-neko.png',
-  'background-som.png'
 ];
 
 var scene = [
-  // Earthbound / Mother 2
   {
+    'name': 'Earthbound / Mother 2',
     'sprites': [
-      'ness north-west',
-      'ness north',
-      'ness north-east',
-      'ness east',
-      'ness south-east',
-      'ness south',
-      'ness south-west',
-      'ness west'
+      { className: 'ness north-west', 'scale': true },
+      { className: 'ness north', 'scale': true },
+      { className: 'ness north-east', 'scale': true },
+      { className: 'ness east', 'scale': true },
+      { className: 'ness south-east', 'scale': true },
+      { className: 'ness south', 'scale': true },
+      { className: 'ness south-west', 'scale': true },
+      { className: 'ness west', 'scale': true },
     ],
     'backgrounds': [
       'background-mother2-dalaam.png',
       'background-mother2-onett.png'
     ]
   },
-  // Seiken Densetsu 3
   {
+    'name': 'Seiken Densetsu 2',
     'sprites': [
-      'jinn-float'
+      { className: 'captain-duck walk east', 'scale': true },
+      { className: 'captain-duck walk west', 'scale': true },
+      { className: 'captain-duck walk-north', 'scale': true },
+      { className: 'captain-duck walk-south', 'scale': true },
+      { className: 'kid-goblin walk east', 'scale': true },
+      { className: 'kid-goblin walk west', 'scale': true },
+      { className: 'kid-goblin walk-north', 'scale': true },
+      { className: 'kid-goblin walk-south', 'scale': true },
+      { className: 'villager-woman-green walk east', 'scale': true },
+      { className: 'villager-woman-green walk west', 'scale': true },
+      { className: 'villager-woman-green walk-north', 'scale': true },
+      { className: 'villager-woman-green walk-south', 'scale': true },
+    ],
+    'backgrounds': [
+      'background-som-goblin.png',
+      'background-som-neko.png',
+      'background-som.png'
+    ]
+  },
+  {
+    'name': 'Seiken Densetsu 3',
+    'sprites': [
+      { className: 'jinn-float', 'scale': true },
+    ]
+  },
+  {
+    'name': 'Chrono Trigger',
+    'sprites': [
+      { className: 'akira-toriyama-walk east', 'scale': true },
+      { className: 'akira-toriyama-walk west', 'scale': true },
+      { className: 'hironobu-sakaguchi-walk east', 'scale': true },
+      { className: 'hironobu-sakaguchi-walk west', 'scale': true },
+      { className: 'kazuhiko-aoki', 'scale': true },
+      { className: 'yuji-horii-walk east', 'scale': true },
+      { className: 'yuji-horii-walk west', 'scale': true },
+    ],
+    'backgrounds': [
+      'background-ct-12000.png'
+    ]
+  },
+  {
+    'name': 'Super Mario World',
+    'sprites': [
+      { className: 'flying-question-block east', 'scale': false },
+      { className: 'flying-question-block west', 'scale': false },
+    ],
+    'backgrounds': [
+      'background-mario-blue-lumps.png',
+      'background-mario-green-hills.png',
+      'background-mario-green-mountains.png',
+      'background-mario-mountains.png',
+      'background-mario-tree-tops.png',
     ]
   }
 ];
@@ -43,24 +85,95 @@ var sprites = document.createElement('div');
 sprites.id = 'sprites';
 document.querySelector('body').appendChild(sprites);
 
-// Setup Scene
-var set = scene[Math.floor(Math.random() * scene.length)];
-var scale = function(){
-  return Math.floor(Math.random() * 4) + 1;
-};
-if (set.sprites && set.sprites.length) {
-  var sprite = set.sprites[Math.floor(Math.random() * set.sprites.length)]
-  var div = document.createElement('div');
-  div.className = "sprite " + sprite;
-  div.style.transform = 'scale(' + scale() + ')';
-  document.querySelector('#sprites').appendChild(div);
+function setupSprite(options){
+  options = options || {};
+
+  // Setup Scene
+  var set_index = (options.set !== undefined && options.set !== null) ? options.set : Math.floor(Math.random() * scene.length);
+  var set = scene[set_index];
+  var scale = function(){
+    return Math.floor(Math.random() * 4) + 1;
+  };
+
+  // Sprites
+  if (set && set.sprites && set.sprites.length) {
+    var sprite_index = (options.sprite !== undefined && options.sprite !== null) ? options.sprite : Math.floor(Math.random() * set.sprites.length);
+    var sprite = set.sprites[sprite_index]
+    if (sprite) {
+      var div = document.createElement('div');
+      div.className = "sprite " + sprite.className;
+      sprites.innerHTML = '';
+      sprites.appendChild(div);
+      if (sprite.scale) {
+        setTimeout(function(){
+          var new_div = document.querySelector('#sprites .sprite');
+          new_div.style.transform = updateTransform(new_div, { "scale": scale() });
+        }, 0);
+      }
+    }
+  }
+
+  // Backgrounds
+  if (set && set.backgrounds) {
+    var bg_index = (options.sprite !== undefined && options.sprite !== null) ? options.sprite : Math.floor(Math.random() * set.backgrounds.length);
+    var bg = set.backgrounds[bg_index];
+    document.querySelector('.site-footer').style.backgroundImage = 'url("https://snes.in/site/bg/' + bg + '")';
+  }
+  else {
+    document.querySelector('.site-footer').style.backgroundImage = 'url("https://snes.in/site/bg/' + bgs[Math.floor(Math.random() * bgs.length)] + '")';
+  }
 }
-if (set.backgrounds) {
-  var bg = set.backgrounds[Math.floor(Math.random() * set.backgrounds.length)];
-  document.querySelector('.site-footer').style.backgroundImage = 'url("https://snes.in/site/bg/' + bg + '")';
+setupSprite();
+
+if (typeof cheet === 'function') {
+  cheet('↑ ↑ ↓ ↓ ← → ← → b a', function(){
+    setupSprite();
+  });
 }
-else {
-  document.querySelector('.site-footer').style.backgroundImage = 'url("https://snes.in/site/bg/' + bgs[Math.floor(Math.random() * bgs.length)] + '")';
+
+function updateTransform(element, options) {
+  var style = window.getComputedStyle(element)
+  var transform = style.getPropertyValue("-webkit-transform") ||
+    style.getPropertyValue("-moz-transform") ||
+    style.getPropertyValue("-ms-transform") ||
+    style.getPropertyValue("-o-transform") ||
+    style.getPropertyValue("transform") ||
+    'matrix(1, 0, 0, 1, 0, 0)';
+
+  if (!transform || transform === 'none') {
+    transform = 'matrix(1, 0, 0, 1, 0, 0)';
+  }
+
+  var values = transform.split('(')[1],
+      values = values.split(')')[0],
+      values = values.split(',');
+
+  var scaleX = values[0];
+  var skewX = values[1];
+  var skewY = values[2];
+  var scaleY = values[3];
+  var translateX = values[4];
+  var translateY = values[5];
+
+  // Rotation
+  var angle = Math.round(Math.atan2(skewX, Math.abs(scaleX)) * (180 / Math.PI)) || 0;
+  angle = (angle < 0) ? angle + 360 : angle;
+
+  if (options.rotate) {
+    angle = options.rotate;
+  }
+
+  // Scale
+  if (options.scale || options.scaleX) {
+    scaleX *= options.scale || options.scaleX;
+  }
+  if (options.scale || options.scaleY) {
+    scaleY *= options.scale || options.scaleY;
+  }
+
+  var new_transform = "rotate(" + angle + "deg) scaleX(" + scaleX + ") scaleY(" + scaleY + ") skewX(" + skewX + ") skewY(" + skewY + ") translate(" + translateX + ", " + translateY + ")";
+
+  element.style.transform = new_transform;
 }
 
 // Image Compare
