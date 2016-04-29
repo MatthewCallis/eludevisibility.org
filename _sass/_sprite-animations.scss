@@ -56,7 +56,6 @@
   mask-image: $val;
 }
 
-//
 @mixin mirror($x, $y) {
   -webkit-transform: scaleX($x) scaleY($y);
   -moz-transform: scaleX($x) scaleY($y);
@@ -415,6 +414,21 @@
     @include animation(horizontal-slide-west 30s linear 0s infinite);
   }
 }
+.goblin-taunt {
+  background-image: url('data:image/gif;base64,R0lGODlhFwAaAPMKALjY+Dg4KIA4iDhguNBQMLho2Hig+CgoEPCo+Pj4+P///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFDwAKACwAAAAAFwAaAEAEx1DJSaudIQFjggHJcAzAFgxfElBHIAiHGszZ8QbHpdBH77czneTE4aAMg+RKhwMekbPe8oIrFBDYwqvQEmJOIuWU6UFtzMlBsEL0GKTqnhLKRhwAuADhQMgDDghjFAFWCFw9WgJrTAQEijQujYJCkJOUR2ooSl47RxtFaZM8aQYJHR9GIjQYeCdueR2uAXhsmSYHb2UzahaEd0hSch8HBaKKHWp6ux4ulkCHBAl7Nk2UhAmGVoldlASJiTDKXhmPPjMCKpzqFREAIfkEBQ8ACQAsAgALABMACAAABEEwyQGMvNKYgcM5QcBhQ/gFSVAc1XBgyTEYwFGECOvBElgjIUHAIJIQAoTJMCAECQQvIyHZe+5AHWRI0ozyUttvBAA7');
+  width: 23px;
+  height: 26px;
+  bottom: 20%;
+  left: 5%;
+}
+.flea-taunt {
+  background-image: url('data:image/gif;base64,R0lGODlhFAAkAPMMAPiw0Dg4KGA4GMhIQBiQ6IB4gLh4CNiAqOioMMiwyCgoEPj4+P///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAMACwAAAAAFAAkAAAE/5DJSau9NARchVcKQWgcIxwAMAwCAQiDcp3pccCCMhyxdd4KG0zh6VEENVtwSBRsjjcaIApaySaaAwjFQ8VuT0ZgsUh4bLwYaCgJFMrBaTRh1mnbhYJCLxQkyAtFV38JCi9rfwtrLE8rTgKBZgkFSFpsDDWQgAkaHio6V01vmzl6O0RPGhqTf5QgZV9XbgVuAgVmOXSKoBJ+egUIHjkLeahHxH5EBgYKcH5hJshlms1EtwLHMNMICGt5gdkDZIWovsTZaVEDAeYF2T9ejywJAxTiOR9EB24sK/YDepAoYAcAhBmAFAoA3DIwAA8nt9xNKHBHB7l5A/8kVMSgGbk/dyjGHAklwICEJjJEWgDBTRU3EBhYLugmk+YFEDhzvryyEqeqnCWCUogAACH5BAUPAAwALAEAAQASACIAAAT/kMlJWQg1i60UIVcmCQcAHIPwhRVpHoeQAsqgUBssKLo9oLcR7XfgyTpHyaXIe3FqAkxgQc2dfgAbMFBYJAodGCrVSV0K4KZOkFiAj+2EArzuJu6kmk0B2Gy6aQVHYgECXm5ofEVmCjKGVF4XOTt7HV2QCTtgJzUKXAUBmW2CHZk2UaGgAggCgjtxYY13cwZ+Cl9ylI1ebI0GBgpejWAjvMYLwY1sGAyGMrwICEiCC8zOB1RyjYWZCwLFMihZAwPczhID3uEmZmyGBRJdO08kXCkJA/HejTSFNAUpyMUbkKbIknYERxAso+3eHDcjijAIpq2NQS/FbviSoOxGG44aHxVEuxAgWocpFDogWCBNJcuTKTvIlGkySMyTF2ZSiAAAOw==');
+  width: 20px;
+  height: 36px;
+  bottom: 20%;
+  left: 5%;
+}
+
 
 // Super Mario World
 .flying-question-block {

@@ -8,6 +8,63 @@
 
   a, &, &:visited {
     color: $grey-color-dark;
+    letter-spacing: -2px;
+    transition: all 0.5s;
+    text-rendering: optimizeLegibility;
+    &:hover {
+      border-bottom: 0;
+    }
+
+    .elegant {
+      color: #131313;
+      text-shadow:
+        1px -1px 0 darken($background-color, 29%),
+        -1px 2px 1px darken($background-color, 28%),
+        -2px 4px 1px darken($background-color, 27%),
+        -3px 6px 1px darken($background-color, 26%),
+        -4px 8px 1px darken($background-color, 25%),
+        -5px 10px 1px darken($background-color, 24%),
+        -6px 12px 1px darken($background-color, 23%),
+        -7px 14px 1px darken($background-color, 22%),
+        -8px 16px 1px darken($background-color, 21%),
+        -9px 18px 1px darken($background-color, 20%),
+        -10px 20px 1px darken($background-color, 19%),
+        -11px 22px 1px darken($background-color, 18%),
+        -12px 24px 1px darken($background-color, 17%),
+        -13px 26px 1px darken($background-color, 16%),
+        -14px 28px 1px darken($background-color, 15%),
+        -15px 30px 1px darken($background-color, 14%),
+        -16px 32px 1px darken($background-color, 13%),
+        -17px 34px 1px darken($background-color, 12%),
+        -18px 36px 1px darken($background-color, 11%),
+        -19px 38px 1px darken($background-color, 10%),
+        -20px 40px 1px darken($background-color, 9%),
+        -21px 42px 1px darken($background-color, 8%),
+        -22px 44px 1px darken($background-color, 7%),
+        -23px 46px 1px darken($background-color, 6%),
+        -24px 48px 1px darken($background-color, 5%),
+        -25px 50px 1px darken($background-color, 4%),
+        -26px 52px 1px darken($background-color, 3%),
+        -27px 54px 1px darken($background-color, 2%),
+        -28px 56px 1px darken($background-color, 1%);
+    }
+
+    // Dark Background Required
+    .inset {
+      color: #202020;
+      text-shadow: -1px -1px 1px #111111, 2px 2px 1px #363636;
+      &:hover {
+        text-shadow: -1px -1px 1px #111111, 2px 2px 1px #363636;
+      }
+    }
+
+    .retro {
+      text-shadow: 2px 2px 0px $background-color, 4px 4px 0px rgba(0, 0, 0, 0.2);
+      &:hover {
+        text-shadow: 2px 2px 0px $background-color, 6px 6px 0px rgba(0, 0, 0, 0.2);
+      }
+    }
+
   }
 }
 .site-description {
@@ -82,6 +139,6 @@
   }
 }
 .divider {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }

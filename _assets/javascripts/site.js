@@ -59,6 +59,8 @@ var scene = [
       { className: 'kazuhiko-aoki', 'scale': true },
       { className: 'yuji-horii-walk east', 'scale': true },
       { className: 'yuji-horii-walk west', 'scale': true },
+      { className: 'goblin-taunt', 'scale': true },
+      { className: 'flea-taunt', 'scale': true },
     ],
     'backgrounds': [
       'background-ct-12000.png'
@@ -124,6 +126,7 @@ function setupSprite(options){
   }
 }
 setupSprite();
+setInterval(setupSprite, 1000 * 60 * 5);
 
 if (typeof cheet === 'function') {
   cheet('↑ ↑ ↓ ↓ ← → ← → b a', function(){
@@ -272,3 +275,15 @@ function setupBlendMode(comparison){
     divisor.style['mix-blend-mode'] = event.currentTarget.value;
   });
 }
+
+// Logo Style
+document.addEventListener('DOMContentLoaded', function(){
+  var hour = new Date().getHours();
+  var style = 'retro';
+  if (hour === 18) {
+    style = 'elegant';
+  }
+  setTimeout(function(){
+    document.querySelector('.site-title a').classList.add(style);
+  }, 3000);
+});
