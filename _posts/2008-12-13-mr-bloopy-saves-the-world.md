@@ -10,11 +10,22 @@ download:
  filename: sfc/mr-bloopy-saves-the-world.7z
 ---
 
-Mr. Bloopy - Saves the World (USA) by Rare, Compedia. A childrens puzzle game. The [box artwork](http://www.felix-3d.com/html/ds_5pa_03bl.htm "Mr. Bloopy Box Art") was done by [Felix Tsetlin](http://www.felix-3d.com/ "Felix Tsetlin") a 3D artist.
+Mr. Bloopy - Saves the World (USA) by somehow involving Rare, but developed by Compedia Ltd. A children's puzzle game.
+
+_Box Art_
+The [box artwork](http://www.felix-3d.com/html/ds_5pa_03bl.htm "Mr. Bloopy Box Art") was done by [Felix Tsetlin](http://www.felix-3d.com/ "Felix Tsetlin") a 3D artist, layout concept is by Gadi Pollack. The tools used include `Autodesk 3D Studio R4`, `Adobe Photoshop`, `Corel Draw!`.
+
+![Mr. Bloopy Box Art]({% asset_path 'mr-bloopy-saves-the-world-box-front.jpeg' %})
 
 Well we have 2 games and 2 graphic level demos.
 
 **Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16)**
+
+Some random strings in the binary:
+
+```
+0x7FF0: !COMPEDIA!
+```
 
 ![Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Intro]({% asset_path 'screenshots/mrbloopy/Mr.-Bloopy---Saves-the-World-(USA)-(Beta-1995-02-16).001.png' %} "Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Intro")
 ![Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Intro]({% asset_path 'screenshots/mrbloopy/Mr.-Bloopy---Saves-the-World-(USA)-(Beta-1995-02-16).002.png' %} "Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Intro")
@@ -32,6 +43,8 @@ _Unemulated_
 
 **Mr. Bloopy - Saves the World (USA) (Beta Levels 000 1994-06-21 18:15)**
 
+You can use the arrow keys to navigate the levels, corruption can happen if you scroll erratically.
+
 ![Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Graphics]({% asset_path 'screenshots/mrbloopy/Mr.-Bloopy---Saves-the-World-(USA)-(Beta-Levels-000-1994-06-21-18-15).001.png' %} "Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Graphics")
 ![Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Graphics]({% asset_path 'screenshots/mrbloopy/Mr.-Bloopy---Saves-the-World-(USA)-(Beta-Levels-000-1994-06-21-18-15).002.png' %} "Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Graphics")
 ![Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Graphics]({% asset_path 'screenshots/mrbloopy/Mr.-Bloopy---Saves-the-World-(USA)-(Beta-Levels-000-1994-06-21-18-15).003.png' %} "Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Graphics")
@@ -40,3 +53,48 @@ _Unemulated_
 
 ![Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Graphics]({% asset_path 'screenshots/mrbloopy/Mr.-Bloopy---Saves-the-World-(USA)-(Beta-Levels-B-1994-06-22-10-00AM).001.png' %} "Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Graphics")
 ![Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Graphics]({% asset_path 'screenshots/mrbloopy/Mr.-Bloopy---Saves-the-World-(USA)-(Beta-Levels-B-1994-06-22-10-00AM).002.png' %} "Mr. Bloopy - Saves the World (USA) (Beta 1995-02-16) Graphics")
+
+_Credits_
+
+__Production & Design:__
+[Gil Ilutowich](http://compedia.net/who-we-are/our-team/)
+
+__Co-Producer:__
+[Ilan Goldberg](http://compedia.net/who-we-are/our-team/)
+
+__Programmers:__
+Yaron Ashkenazi
+Haim Hadar
+Stephen C. Biggs
+[Nir Pedazur](https://www.linkedin.com/in/nir-pedhazur-79862a2)
+Ori Berger
+
+__Graphic Artists:__
+[Michael Gershanik](https://www.linkedin.com/in/michael-gershanik-766a6576)
+[Gennady Arkulis](http://compedia.net/who-we-are/our-team/)
+Gennady Pollack
+
+__Sound & Music:__
+[Amir Hacohen](https://www.linkedin.com/in/amir-hacohen-a2135929)
+Ester Guttman
+
+__Special Thanks To:__
+Eileen Hochberg
+Scott Austin
+
+_Cheats / RAM Offsets_
+
+```
+7F005A:**: Y Coordinate
+7F00F0:09: Unlimited Lives
+```
+
+_Passwords_
+
+These are from the [ending credits video](https://www.youtube.com/watch?v=JxNpiTz3SRg) by KungFuFurby.
+
+Level 1 (Europe): Just start the game...
+Level 2 (City): Purple, Blue, Green, Purple
+Level 3 (China/Japan): Blue, Purple. Blue, Green
+Level 4 (Egypt): Red, Blue, Green, Green
+Level 5 (North/South Poles): Blue, Green, Red, Red

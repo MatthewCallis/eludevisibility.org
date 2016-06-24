@@ -14,6 +14,12 @@ An interesting RPG for the [Super Famicom](http://superfamicom.org/ "Super Famic
 
 Compared to the later beta and final, it is pretty much ported straight from the first game, as it still has the original title screen. Other things are left unchanged or unfinished, such as the enemy names and the backgrounds to the fight scenes. The font was also slightly tweaked by a few pixels here and there. Other things are slightly different but you'll have to find them.
 
+_RAM Strings_
+
+```
+0x000000: ARETHA2 VER 0.05
+```
+
 Below are comparison screenshots from the first 2 betas, then retail. Enjoy!
 
 ![Aretha II - Ariel no Fushigi na Tabi (Beta 1)]({% asset_path 'screenshots/aretha2/000_Aretha II - Ariel no Fushigi na Tabi (Beta 1).png' %})
