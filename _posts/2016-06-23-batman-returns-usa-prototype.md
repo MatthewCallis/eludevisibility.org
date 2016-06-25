@@ -10,6 +10,8 @@ download:
  filename: sfc/batman-returns-usa-prototype.7z
 ---
 
+__[バットマン リターンズ](https://superfamicom.org/info/batman-returns)__
+
 Same as the [d4s dump](http://www.snescentral.com/review.php?id=0224&num=0&fancy=yes&article=proto), but from [a different cart on SNESCentral](http://www.snescentral.com/review.php?id=0224&num=1&fancy=yes&article=proto).
 
 _Title - Final_  / _Sample_
