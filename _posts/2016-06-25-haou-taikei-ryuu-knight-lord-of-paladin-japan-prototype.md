@@ -75,3 +75,5 @@ Interleaved: None                        SRAM: 64 Kb
 --------------------------Database--------------------------
     ROM wasn't found in the database (possible bad dump).
 ```
+
+PCB Scans coming soon.
