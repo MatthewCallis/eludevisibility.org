@@ -1,11 +1,14 @@
 {% assign author = site.data.authors[page.author] %}
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
 <meta property="og:url" content="{{ page.url | replace:'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
 {% if page.thumbnail %}
 <meta property="og:image" content="{{ page.thumbnail | prepend: '/assets/' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="twitter:image" content="{{ page.thumbnail | prepend: '/assets/' | prepend: site.baseurl | prepend: site.url }}">
 {% endif %}
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="{{ site.locale }}">
 {% if page.date %}
