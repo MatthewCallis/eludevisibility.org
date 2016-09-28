@@ -5,6 +5,7 @@ date: 2016-09-27 20:15:00
 slug: pirates-of-dark-water-europe-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/pirates-of-dark-water-europe-sample/europe-sample-title.png
 download:
  title: Pirates of Dark Water, The (Europe) (Sample)
  filename: sfc/pirates-of-dark-water-europe-sample.7z

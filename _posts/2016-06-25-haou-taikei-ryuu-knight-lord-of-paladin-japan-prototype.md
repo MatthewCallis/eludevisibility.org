@@ -5,6 +5,7 @@ date: 2016-06-25 12:30:00
 slug: haou-taikei-ryuu-knight-lord-of-paladin-japan-prototype
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/haou-taikei-ryuu-knight-lord-of-paladin-japan-prototype/title.png
 download:
  title: Haou Taikei Ryuu Knight - Lord of Paladin (Japan) (Prototype)
  filename: sfc/haou-taikei-ryuu-knight-lord-of-paladin-japan-prototype.7z

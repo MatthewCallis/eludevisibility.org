@@ -5,6 +5,7 @@ date: 2016-06-25 12:45:00
 slug: sanrio-world-smash-ball-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/sanrio-world-smash-ball-japan-sample/title-1.png
 download:
  title: Sanrio World Smash Ball! (Japan) (Sample)
  filename: sfc/sanrio-world-smash-ball-japan-sample.7z

@@ -5,6 +5,7 @@ date: 2016-06-23 20:23:40
 slug: batman-returns-usa-prototype
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/batman-returns-usa-prototype/title.png
 download:
  title: Batman Returns (USA) (Prototype)
  filename: sfc/batman-returns-usa-prototype.7z
