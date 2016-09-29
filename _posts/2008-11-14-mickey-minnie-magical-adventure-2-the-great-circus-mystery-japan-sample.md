@@ -5,6 +5,7 @@ date: 2008-11-14 19:50:07
 slug: mickey-minnie-magical-adventure-2-the-great-circus-mystery-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/SHVC-4C-SAMPLE.png
 download:
  title: Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample)
  filename: sfc/mickey-minnie-magical-adventure-2-the-great-circus-mystery-japan-sample.7z

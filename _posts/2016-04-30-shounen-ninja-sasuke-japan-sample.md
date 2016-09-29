@@ -5,6 +5,7 @@ date: 2016-04-30 21:00:00
 slug: shounen-ninja-sasuke-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/shounen-ninja-sasuke-japan-sample/title-sample.png
 download:
  title: Shounen Ninja Sasuke (Japan) (Sample)
  filename: sfc/shounen-ninja-sasuke-japan-sample.7z

@@ -5,6 +5,7 @@ date: 2010-01-03 19:52:22
 slug: ganbare-goemon-3-shishi-juurokubei-no-karakuri-manjigatame-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/goemon3/ganbare-goemon-3-sample.0.png
 download:
  title: Ganbare Goemon 3 - Shishi Juurokubei no Karakuri Manjigatame (Japan) (Sample)
  filename: sfc/ganbare-goemon-3-shishi-juurokubei-no-karakuri-manjigatame-japan-sample.7z

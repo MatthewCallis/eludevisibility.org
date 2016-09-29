@@ -5,6 +5,7 @@ date: 2015-03-27 23:36:02
 slug: shinseiki-odysselya-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/shinseiki-odysselya-japan-sample/shinseiki-odysselya-japan-sample.0.png
 download:
  title: Shinseiki Odysselya (Japan) (Sample)
  filename: sfc/shinseiki-odysselya-japan-sample.7z

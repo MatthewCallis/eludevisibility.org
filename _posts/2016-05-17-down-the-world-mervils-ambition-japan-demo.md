@@ -5,6 +5,7 @@ date: 2016-05-17 20:00:00
 slug: down-the-world-mervils-ambition-japan-demo
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/down-the-world-mervils-ambition-japan-demo/down-the-world-mervils-ambition-japan-demo.023.png
 download:
  title: Down the World - Mervil's Ambition (Japan) (Demo)
  filename: sfc/down-the-world-mervils-ambition-japan-demo.7z

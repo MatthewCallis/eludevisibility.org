@@ -5,6 +5,7 @@ date: 2016-04-30 20:00:00
 slug: 3-jigen-kakutou-ballz-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/3-jigen-kakutou-ballz-japan-sample/title-sample.png
 download:
  title: 3 Jigen Kakutou Ballz (Japan) (Sample)
  filename: sfc/3-jigen-kakutou-ballz-japan-sample.7z

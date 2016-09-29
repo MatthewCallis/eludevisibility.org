@@ -5,6 +5,7 @@ date: 2016-04-23 11:00:00
 slug: granhistoria-genshi-sekaiki-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/granhistoria-genshi-sekaiki-sample/title-sample.png
 download:
  title: Granhistoria - Genshi Sekaiki (Japan) (Sample)
  filename: sfc/granhistoria-genshi-sekaiki-sample.7z

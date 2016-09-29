@@ -5,6 +5,7 @@ date: 2016-04-23 11:00:00
 slug: hyper-iria-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/hyper-iria-sample/title-sample.png
 download:
  title: Hyper Iria (Japan) (Sample)
  filename: sfc/hyper-iria-sample.7z

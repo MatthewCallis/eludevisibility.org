@@ -5,6 +5,7 @@ date: 2009-11-10 22:29:00
 slug: virtual-boy-development-disks
 category: Documents
 author: matthew_callis
+thumbnail: vb-development-disks/C-compiler-VUCC-(95.3.28)-(Japan).jpg
 download:
  title: Virtual Boy Development Disks
  filename: documents/virtual-boy-development-disks.7z
@@ -19,9 +20,6 @@ Purchased from Yahoo! Japan Auctions and originally released to [Planet Virtual 
 ![VUE Sample Program Ver.1.1 (95-4) / VUE サンプルプログラム Ver.1.1 (95-4)]({% asset_path 'vb-development-disks/VUE-Sample-Program-Ver.1.0-(95-1)-(Japan).jpg' %})
 ![VUE Sample Program Ver.1.1(a) (95-4-28) / VUE サンプルプログラム Ver.1.1(a) (95-4-28)]({% asset_path 'vb-development-disks/VUE-Sample-Program-Ver.1.1-(95-4)-(Japan).jpg' %})
 ![VUE Sample Program Ver.1.0 (95-1) /  VUE サンプルプログラム Ver.1.0 (95-1)]({% asset_path 'vb-development-disks/VUE-Sample-Program-Ver.1.1(a)-(95-4-28)-(Japan).jpg' %})
-
-
-
 
 ### C Compiler VUCC (95.3.28) / Cコンパイラ　VUCC (95.3.28)
 

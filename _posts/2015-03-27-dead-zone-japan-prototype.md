@@ -5,6 +5,7 @@ date: 2015-03-27 23:36:04
 slug: dead-zone-japan-prototype
 category: Famicom Disk System
 author: matthew_callis
+thumbnail: screenshots/dead-zone-japan-prototype/dead-zone-japan-prototype.0.png
 download:
  title: Dead Zone (Japan) (Prototype)
  filename: fds/dead-zone-japan-prototype.7z

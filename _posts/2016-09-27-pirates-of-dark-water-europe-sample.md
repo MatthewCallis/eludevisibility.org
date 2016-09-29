@@ -13,7 +13,7 @@ download:
 
 __[The Pirates of Dark Water](http://superfamicom.org/info/the-pirates-of-dark-water)__
 
-This is a PAL sample, different than the [USA Prototype on SNESCentral](http://www.snescentral.com/article.php?id=0858). Apart from being in a case, there are only a handful of differences between all the versions I compared: *USA Prototype*, *Europe* and *Europe Sample*. For the most part, the *USA Prototype* matched the *Europe* final closer than the *Europe Sample* did.
+This is a PAL sample, different than the [USA Prototype on SNESCentral](http://www.snescentral.com/review.php?id=0549&num=0&fancy=yes&article=proto), but another copy of the [white label version](http://www.snescentral.com/review.php?id=0549&num=1&fancy=yes&article=proto). Apart from being in a case, there are only a handful of differences between all the versions I compared: *USA Prototype*, *Europe* and *Europe Sample*. For the most part, the *USA Prototype* matched the *Europe* final closer than the *Europe Sample* did.
 
 _Titles - USA Prototype_  / _Europe_  / _Europe Sample_
 
@@ -32,7 +32,7 @@ The *Europe Sample*  title has the string `SAMPLE VERSION` clearly at the top. T
 
 _License - USA Prototype_  / _Europe Sample_
 
-As noted on [SNESCentral](http://www.snescentral.com/article.php?id=0858) the license screen has been shuffled around, moving the license string `LICENSED BY NINTENDO` to the title screen.
+As noted on [SNESCentral](http://www.snescentral.com/review.php?id=0549&num=0&fancy=yes&article=proto) the license screen has been shuffled around, moving the license string `LICENSED BY NINTENDO` to the title screen.
 
 {% include compare_local.html
     name_1='License - Europe Sample'

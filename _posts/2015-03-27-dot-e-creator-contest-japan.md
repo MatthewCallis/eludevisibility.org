@@ -5,6 +5,7 @@ date: 2015-03-27 23:36:04
 slug: dot-e-creator-contest-japan
 category: Famicom Disk System
 author: matthew_callis
+thumbnail: screenshots/dot-e-creator-contest-japan/dot-e-creator-contest-japan.0.png
 download:
  title: Dot E Creator Contest (Japan)
  filename: fds/dot-e-creator-contest-japan.7z

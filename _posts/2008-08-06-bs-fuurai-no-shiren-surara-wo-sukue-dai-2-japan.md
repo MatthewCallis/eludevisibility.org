@@ -5,6 +5,7 @@ date: 2008-08-06 22:15:46
 slug: bs-fuurai-no-shiren-surara-wo-sukue-dai-2-japan
 category: Satellaview
 author: matthew_callis
+thumbnail: screenshots/bs-fuurai-no-shiren-surara-wo-sukue-dai-2-japan.0.png
 download:
  title: BS Fuurai no Shiren - Surara wo Sukue - Dai-2 (Japan)
  filename: sfc/bs-fuurai-no-shiren-surara-wo-sukue-dai-2-japan.7z

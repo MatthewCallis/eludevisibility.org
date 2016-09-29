@@ -5,6 +5,7 @@ date: 2008-08-24 18:28:53
 slug: dragon-ball-z-super-butouden-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/dragon-ball-z-super-butouden-japan-sample.1.png
 download:
  title: Dragon Ball Z - Super Butouden (Japan) (Sample)
  filename: sfc/dragon-ball-z-super-butouden-japan-sample.7z

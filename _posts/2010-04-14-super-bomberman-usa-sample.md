@@ -5,6 +5,7 @@ date: 2010-04-14 15:59:56
 slug: super-bomberman-usa-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/super-bomberman/super-bomberman-usa-sample.0.png
 download:
  title: Super Bomberman (USA) (Sample)
  filename: sfc/super-bomberman-usa-sample.7z

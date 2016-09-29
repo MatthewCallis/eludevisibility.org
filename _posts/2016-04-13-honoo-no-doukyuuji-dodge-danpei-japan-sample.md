@@ -5,6 +5,7 @@ date: 2016-04-13 18:13:00
 slug: honoo-no-doukyuuji-dodge-danpei-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/honoo-no-doukyuuji-dodge-danpei-japan-sample/honoo-no-doukyuuji-dodge-danpei-japan-sample.0.png
 download:
  title: Honoo no Doukyuuji - Dodge Danpei (Japan) (Sample)
  filename: sfc/honoo-no-doukyuuji-dodge-danpei-japan-sample.7z

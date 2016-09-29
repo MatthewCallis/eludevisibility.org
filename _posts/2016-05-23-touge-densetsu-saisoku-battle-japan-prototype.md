@@ -5,6 +5,7 @@ date: 2016-05-23 13:00:00
 slug: touge-densetsu-saisoku-battle-japan-prototype
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/touge-densetsu-saisoku-battle-japan-prototype/sample-1.png
 download:
  title: Touge Densetsu - Saisoku Battle (Japan) (Prototype)
  filename: sfc/touge-densetsu-saisoku-battle-japan-prototype.7z

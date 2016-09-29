@@ -5,6 +5,7 @@ date: 2015-12-24 13:43:00
 slug: super-chinese-2-dragon-kid-japan-sample
 category: Famicom
 author: matthew_callis
+thumbnail: screenshots/super-chinese-2-dragon-kid-japan-sample/super-chinese-2-dragon-kid-japan-sample.0.png
 download:
  title: Super Chinese 2 - Dragon Kid (Japan) (Sample)
  filename: fc/super-chinese-2-dragon-kid-japan-sample.7z

@@ -5,6 +5,7 @@ date: 2015-03-27 23:36:00
 slug: bounty-sword-japan-sample-80
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/bounty-sword-japan-sample-80/bounty-sword-japan-sample-80.0.png
 download:
  title: Bounty Sword (Japan) (Sample, 80%)
  filename: sfc/bounty-sword-japan-sample-80.7z

@@ -5,6 +5,7 @@ date: 2008-12-13 18:04:11
 slug: mr-bloopy-saves-the-world
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/mrbloopy/Mr.-Bloopy---Saves-the-World-(USA)-(Beta-1995-02-16).001.png
 download:
  title: Mr. Bloopy - Saves the World (USA)
  filename: sfc/mr-bloopy-saves-the-world.7z

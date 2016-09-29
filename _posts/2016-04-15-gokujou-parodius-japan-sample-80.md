@@ -5,6 +5,7 @@ date: 2016-04-14 18:50:00
 slug: gokujou-parodius-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/gokujou-parodius-japan-sample/gokujou-parodius-japan-sample-title.png
 download:
  title: Gokujou Parodius (Japan) (Sample)
  filename: sfc/gokujou-parodius-japan-sample.7z

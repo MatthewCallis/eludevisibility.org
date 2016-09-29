@@ -5,6 +5,7 @@ date: 2016-04-18 17:20:00
 slug: chibi-maruko-chan-mezase-minami-no-island-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/chibi-maruko-chan-mezase-minami-no-island-japan-sample/title-sample.png
 download:
  title: Chibi Maruko-chan - Mezase! Minami no Island!! (Japan) (Sample)
  filename: sfc/chibi-maruko-chan-mezase-minami-no-island-japan-sample.7z

@@ -5,6 +5,7 @@ date: 2008-08-10 18:14:07
 slug: bs-konae-chan-no-dokidoki-pengin-kazoku-japan
 category: Satellaview
 author: matthew_callis
+thumbnail: screenshots/bs-konae-chan-no-dokidoki-pengin-kazoku-japan.1.png
 download:
  title: BS Konae Chan no Dokidoki Pengin Kazoku (Japan)
  filename: sfc/bs-konae-chan-no-dokidoki-pengin-kazoku-japan.7z

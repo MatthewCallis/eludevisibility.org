@@ -5,6 +5,7 @@ date: 2016-05-23 12:00:00
 slug: arabian-knights-japan-prototype
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/arabian-knights-japan-prototype/title.png
 download:
  title: Arabian Knights - Sabaku no Seirei Ou (Japan) (Prototype)
  filename: sfc/arabian-knights-japan-prototype.7z

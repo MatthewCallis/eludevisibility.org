@@ -5,6 +5,7 @@ date: 2016-05-22 18:00:00
 slug: umi-tsuri-meijin-suzuki-hen-japan-prototype
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/umi-tsuri-meijin-suzuki-hen-japan-prototype/title.png
 download:
  title: Umi Tsuri Meijin - Suzuki Hen (Japan) (Prototype)
  filename: sfc/umi-tsuri-meijin-suzuki-hen-japan-prototype.7z

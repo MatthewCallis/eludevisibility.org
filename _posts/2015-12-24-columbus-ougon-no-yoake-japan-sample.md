@@ -5,6 +5,7 @@ date: 2015-12-24 13:43:00
 slug: columbus-ougon-no-yoake-japan-sample
 category: Famicom
 author: matthew_callis
+thumbnail: screenshots/columbus-ougon-no-yoake-japan-sample/columbus-ougon-no-yoake-japan-sample.0.png
 download:
  title: Columbus - Ougon no Yoake (Japan) (Sample)
  filename: fc/columbus-ougon-no-yoake-japan-sample.7z

@@ -5,6 +5,7 @@ date: 2012-02-12 22:26:00
 slug: bubsy-in-claws-encounters-of-the-furred-kind-usa-beta-1
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/bubsy-in-claws-encounters-of-the-furred-kind-usa-beta-1/bubsy-in-claws-encounters-of-the-furred-kind-usa-beta-1.0.png
 download:
  title: Bubsy in Claws Encounters of the Furred Kind (USA) (Beta 1)
  filename: sfc/bubsy-in-claws-encounters-of-the-furred-kind-usa-beta-1.7z

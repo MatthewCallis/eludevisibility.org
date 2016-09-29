@@ -5,6 +5,7 @@ date: 2016-04-21 19:00:00
 slug: pikiinya-japan-sample
 category: Super Famicom
 author: matthew_callis
+thumbnail: screenshots/pikiinya-japan-sample/title-sample.png
 download:
  title: Pikiinya! (Japan) (Sample)
  filename: sfc/pikiinya-japan-sample.7z
