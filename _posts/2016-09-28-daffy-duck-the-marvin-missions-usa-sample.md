@@ -13,7 +13,7 @@ download:
 
 __[Daffy Duck - The Marvin Missions](http://superfamicom.org/info/daffy-duck-the-marvin-missions)__
 
-An NTSC Sample version of Daffy Duck, but I couldn't find any differences other than offset byte comparing the ROM and many sections being different. See also: [SNESCentral Entry](http://www.snescentral.com/article.php?id=0300), 
+An NTSC Sample version of Daffy Duck, but I couldn't find any differences other than offset byte comparing the ROM and many sections being different. The internal title has a underscore in it rather than a space. See also: [SNESCentral Entry](http://www.snescentral.com/article.php?id=0300).
 
 _Screenshots_
 

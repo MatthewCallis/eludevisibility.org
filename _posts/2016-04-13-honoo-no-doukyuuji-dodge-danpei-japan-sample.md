@@ -17,8 +17,16 @@ __[炎の闘球児 ドッジ弾平](http://superfamicom.org/info/honoo-no-doukyu
 
 On the surface, it seems very similar to the final (maybe a few rows of pixels literally shifted 1 or 2 up or down) but there are many binary differences, with the first apparent one being that when you start, you get the ball and you do not have to jump for it.
 
-![Honoo no Doukyuuji - Dodge Danpei - Sample Offset]({% asset_path 'screenshots/honoo-no-doukyuuji-dodge-danpei-japan-sample/honoo-no-doukyuuji-dodge-danpei-japan-sample.1.png' %})
-![Honoo no Doukyuuji - Dodge Danpei - Final Offset](https://snes.in/screenshots/honoo-no-doukyuuji-dodge-danpei/honoo-no-doukyuuji-dodge-danpei.1.png)
+{% include compare.html
+    name_1='Honoo no Doukyuuji - Dodge Danpei - Final Offset'
+    image_1='https://snes.in/screenshots/honoo-no-doukyuuji-dodge-danpei/honoo-no-doukyuuji-dodge-danpei.1.png'
+    name_2='Honoo no Doukyuuji - Dodge Danpei - Sample Offset'
+    image_2='screenshots/honoo-no-doukyuuji-dodge-danpei-japan-sample/honoo-no-doukyuuji-dodge-danpei-japan-sample.1.png'
+%}
 
-![Honoo no Doukyuuji - Dodge Danpei - Sample Start]({% asset_path 'screenshots/honoo-no-doukyuuji-dodge-danpei-japan-sample/honoo-no-doukyuuji-dodge-danpei-japan-sample.2.png' %})
-![Honoo no Doukyuuji - Dodge Danpei - Final Start](https://snes.in/screenshots/honoo-no-doukyuuji-dodge-danpei/honoo-no-doukyuuji-dodge-danpei.2.png)
+{% include compare.html
+    name_1='Honoo no Doukyuuji - Dodge Danpei - Final Offset'
+    image_1='https://snes.in/screenshots/honoo-no-doukyuuji-dodge-danpei/honoo-no-doukyuuji-dodge-danpei.2.png'
+    name_2='Honoo no Doukyuuji - Dodge Danpei - Sample Offset'
+    image_2='screenshots/honoo-no-doukyuuji-dodge-danpei-japan-sample/honoo-no-doukyuuji-dodge-danpei-japan-sample.2.png'
+%}

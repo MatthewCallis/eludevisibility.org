@@ -19,17 +19,37 @@ In debug mode you can fly around, getting to any area quickly, but hitting the L
 
 ![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame Debug]({% asset_path 'screenshots/goemon3/ganbare-goemon-3.debug.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame Debug")
 
-![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame]({% asset_path 'screenshots/goemon3/ganbare-goemon-3.0.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame")
-![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame]({% asset_path 'screenshots/goemon3/ganbare-goemon-3-sample.0.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame")
+{% include compare_local.html
+    name_1='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame'
+    image_1='screenshots/goemon3/ganbare-goemon-3.0.png'
+    name_2='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame - Sample'
+    image_2='screenshots/goemon3/ganbare-goemon-3-sample.0.png'
+%}
 
-![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame]({% asset_path 'screenshots/goemon3/ganbare-goemon-3.1.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame")
-![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame]({% asset_path 'screenshots/goemon3/ganbare-goemon-3-sample.1.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame")
+{% include compare_local.html
+    name_1='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame'
+    image_1='screenshots/goemon3/ganbare-goemon-3.1.png'
+    name_2='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame - Sample'
+    image_2='screenshots/goemon3/ganbare-goemon-3-sample.1.png'
+%}
 
-![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame]({% asset_path 'screenshots/goemon3/ganbare-goemon-3.2.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame")
-![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame]({% asset_path 'screenshots/goemon3/ganbare-goemon-3-sample.2.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame")
+{% include compare_local.html
+    name_1='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame'
+    image_1='screenshots/goemon3/ganbare-goemon-3.2.png'
+    name_2='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame - Sample'
+    image_2='screenshots/goemon3/ganbare-goemon-3-sample.2.png'
+%}
 
-![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame]({% asset_path 'screenshots/goemon3/ganbare-goemon-3.3.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame")
-![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame]({% asset_path 'screenshots/goemon3/ganbare-goemon-3-sample.3.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame")
+{% include compare_local.html
+    name_1='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame'
+    image_1='screenshots/goemon3/ganbare-goemon-3.3.png'
+    name_2='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame - Sample'
+    image_2='screenshots/goemon3/ganbare-goemon-3-sample.3.png'
+%}
 
-![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame]({% asset_path 'screenshots/goemon3/ganbare-goemon-3.4.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame")
-![Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame]({% asset_path 'screenshots/goemon3/ganbare-goemon-3-sample.4.png' %} "Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame")
+{% include compare_local.html
+    name_1='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame'
+    image_1='screenshots/goemon3/ganbare-goemon-3.4.png'
+    name_2='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame - Sample'
+    image_2='screenshots/goemon3/ganbare-goemon-3-sample.4.png'
+%}
