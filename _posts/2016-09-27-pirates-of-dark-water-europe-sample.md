@@ -160,4 +160,7 @@ Interleaved: None                        SRAM: 0 Kb
     Genre 1: Fighting                 Genre 2: Brawler
 ```
 
-PCB & Cart Scan coming soon!
+If you happen to know the game well and find more differences, or can translate any of the screen shots above- [please update this post on GitHub](https://github.com/MatthewCallis/eludevisibility.org) or contact me!
+
+![The Pirates of Dark Water (USA) (Sample) - Cart]({% asset_path "The Pirates of Dark Water (USA) (Sample) - Cart.jpg" %} "The Pirates of Dark Water (USA) (Sample) - Cart")
+![The Pirates of Dark Water (USA) (Sample) - PCB Front]({% asset_path "The Pirates of Dark Water (USA) (Sample) - PCB Front.jpg" %} "The Pirates of Dark Water (USA) (Sample) - PCB Front")
