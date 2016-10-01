@@ -11,7 +11,7 @@ download:
  filename: sfc/yadamon-wonderland-dreams-japan-sample.7z
 ---
 
-[Yadamon Wonderland Dreams (Japan) (Sample)](http://superfamicom.org/info/yadamon-wonderland-dreams/ "Yadamon - Wonderland Dreams ROM"). A lot different from the final.
+[Yadamon Wonderland Dreams (Japan) (Sample)](https://superfamicom.org/info/yadamon-wonderland-dreams/ "Yadamon - Wonderland Dreams ROM"). A lot different from the final.
 
 ![Yadamon - Wonderland Dreams]({% asset_path 'screenshots/yadamon-wonderland-dreams-sample.0.png' %} "Yadamon - Wonderland Dreams (Japan)")
 ![Yadamon - Wonderland Dreams]({% asset_path 'screenshots/yadamon-wonderland-dreams-sample.1.png' %} "Yadamon - Wonderland Dreams (Japan)")

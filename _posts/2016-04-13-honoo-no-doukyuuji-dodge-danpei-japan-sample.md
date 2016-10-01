@@ -11,7 +11,7 @@ download:
  filename: sfc/honoo-no-doukyuuji-dodge-danpei-japan-sample.7z
 ---
 
-__[炎の闘球児 ドッジ弾平](http://superfamicom.org/info/honoo-no-doukyuuji-dodge-danpei)__
+__[炎の闘球児 ドッジ弾平](https://superfamicom.org/info/honoo-no-doukyuuji-dodge-danpei)__
 
 ![Honoo no Doukyuuji - Dodge Danpei - Title Screen]({% asset_path 'screenshots/honoo-no-doukyuuji-dodge-danpei-japan-sample/honoo-no-doukyuuji-dodge-danpei-japan-sample.0.png' %})
 

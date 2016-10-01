@@ -11,7 +11,7 @@ download:
  filename: sfc/demons-blazon-makai-mura-monshou-hen-japan-sample.7z
 ---
 
-Again, I finally got an opportunity to get this up and going. And again, there's not too many differences in [Demon's Blazon - Makai-Mura Monshou Hen](http://superfamicom.org/info/demons-blazon-makaimura-monshou-hen/ "Demon") sample, but they're as the run through video didn't work though it did with the retail version, so go forth and find them!
+Again, I finally got an opportunity to get this up and going. And again, there's not too many differences in [Demon's Blazon - Makai-Mura Monshou Hen](https://superfamicom.org/info/demons-blazon-makaimura-monshou-hen/ "Demon") sample, but they're as the run through video didn't work though it did with the retail version, so go forth and find them!
 
 Here's a title screen comparison:
 

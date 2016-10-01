@@ -10,4 +10,4 @@ download:
  filename: sfc/gindama-oyakata-no-pachinko-hisshouhou-japan-rev-a.7z
 ---
 
-[Gindama Oyakata no Pachinko Hisshouhou (Japan) (Rev A)](http://superfamicom.org/info/gindama-oyakata-no-pachinko-hisshouhou/ "Gindama Oyakata no Pachinko Hisshouhou")
+[Gindama Oyakata no Pachinko Hisshouhou (Japan) (Rev A)](https://superfamicom.org/info/gindama-oyakata-no-pachinko-hisshouhou/ "Gindama Oyakata no Pachinko Hisshouhou")

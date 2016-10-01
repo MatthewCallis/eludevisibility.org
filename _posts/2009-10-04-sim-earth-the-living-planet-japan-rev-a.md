@@ -10,4 +10,4 @@ download:
  filename: sfc/sim-earth-the-living-planet-japan-rev-a.7z
 ---
 
-[Sim Earth - The Living Planet (Japan) (Rev A)](http://superfamicom.org/info/sim-earth-the-living-planet/ "Sim Earth - The Living Planet")
+[Sim Earth - The Living Planet (Japan) (Rev A)](https://superfamicom.org/info/sim-earth-the-living-planet/ "Sim Earth - The Living Planet")

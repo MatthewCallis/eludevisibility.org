@@ -11,7 +11,7 @@ download:
  filename: sfc/marmalade-boy-japan-sample-80.7z
 ---
 
-__[ママレード・ボーイ](http://superfamicom.org/info/marmalade-boy)__
+__[ママレード・ボーイ](https://superfamicom.org/info/marmalade-boy)__
 
 Not sure about any differences in content, let me know if you notice any. Obvious text layout changes and some color tweaks. Hidden in the SRM was the string `KUSOH KAGAKU0124`.
 

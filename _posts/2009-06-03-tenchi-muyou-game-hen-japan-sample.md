@@ -11,7 +11,7 @@ download:
  filename: sfc/tenchi-muyou-game-hen-japan-sample.7z
 ---
 
-Skipping around a bit in the order of things, we have [Tenchi Muyou! Game Hen](http://superfamicom.org/info/tenchi-muyou-game-hen/ "Tenchi Muyou! Game Hen (Japan) (Sample)") (Japan) (Sample). This is somewhere between the sample it labels itself and an early beta. The cartridge label as 40% complete, and it's clearly that early.  The ROM itself has the internal title of [MAHOUJIN GURUGURU](http://superfamicom.org/info/mahoujin-guru-guru/ "Mahoujin Guru Guru"), so they didn't start from scratch. I'll let the screen shots speak for themselves.
+Skipping around a bit in the order of things, we have [Tenchi Muyou! Game Hen](https://superfamicom.org/info/tenchi-muyou-game-hen/ "Tenchi Muyou! Game Hen (Japan) (Sample)") (Japan) (Sample). This is somewhere between the sample it labels itself and an early beta. The cartridge label as 40% complete, and it's clearly that early.  The ROM itself has the internal title of [MAHOUJIN GURUGURU](https://superfamicom.org/info/mahoujin-guru-guru/ "Mahoujin Guru Guru"), so they didn't start from scratch. I'll let the screen shots speak for themselves.
 
 The title screens:
 

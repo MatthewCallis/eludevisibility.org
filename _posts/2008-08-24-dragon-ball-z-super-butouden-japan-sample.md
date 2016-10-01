@@ -11,7 +11,7 @@ download:
  filename: sfc/dragon-ball-z-super-butouden-japan-sample.7z
 ---
 
-Switching gears this time, a [Super Famicom](http://superfamicom.org/ "Super Famicom") sample cart dump, [Dragon Ball Z - Super Butouden](http://superfamicom.org/info/dragon-ball-z-super-butouden/ "Dragon Ball Z - Super Butouden") (Japan) (Sample).
+Switching gears this time, a [Super Famicom](https://superfamicom.org/ "Super Famicom") sample cart dump, [Dragon Ball Z - Super Butouden](https://superfamicom.org/info/dragon-ball-z-super-butouden/ "Dragon Ball Z - Super Butouden") (Japan) (Sample).
 
 It's essentially identical to the released game except: there's no story intro in black &amp; white; the title screen has a big disclaimer written on it; you don't have access to all of the characters in the game; and the palette seems tweaked slightly. That's it, nothing really special. Enjoi!
 

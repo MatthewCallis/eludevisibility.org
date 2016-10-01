@@ -10,4 +10,4 @@ download:
  filename: sfc/sangokushi-4-japan-rev-a.7z
 ---
 
-[Sangokushi 4 (Japan) (Rev A)](http://superfamicom.org/info/sangokushi-4/ "Sangokushi 4")
+[Sangokushi 4 (Japan) (Rev A)](https://superfamicom.org/info/sangokushi-4/ "Sangokushi 4")

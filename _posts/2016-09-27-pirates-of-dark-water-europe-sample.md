@@ -11,7 +11,7 @@ download:
  filename: sfc/pirates-of-dark-water-europe-sample.7z
 ---
 
-__[The Pirates of Dark Water](http://superfamicom.org/info/the-pirates-of-dark-water)__
+__[The Pirates of Dark Water](https://superfamicom.org/info/the-pirates-of-dark-water)__
 
 This is a PAL sample, different than the [USA Prototype on SNESCentral](http://www.snescentral.com/review.php?id=0549&num=0&fancy=yes&article=proto), but another copy of the [white label version](http://www.snescentral.com/review.php?id=0549&num=1&fancy=yes&article=proto). Apart from being in a case, there are only a handful of differences between all the versions I compared: *USA Prototype*, *Europe* and *Europe Sample*. For the most part, the *USA Prototype* matched the *Europe* final closer than the *Europe Sample* did.
 

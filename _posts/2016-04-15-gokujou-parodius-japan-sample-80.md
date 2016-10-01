@@ -11,7 +11,7 @@ download:
  filename: sfc/gokujou-parodius-japan-sample.7z
 ---
 
-__[極上パロディウス 過去の栄光を求めて](http://superfamicom.org/info/gokujou-parodius)__
+__[極上パロディウス 過去の栄光を求めて](https://superfamicom.org/info/gokujou-parodius)__
 
 A very clear sample, very unfinished. The title screen has 2 slide out screens with more information that aren't in the final. Plus all of the character screens are not complete. The options has a music test not present in the final. The internal title is `GOKU PARODIUS SAMPLE` and no game code is not listed:
 

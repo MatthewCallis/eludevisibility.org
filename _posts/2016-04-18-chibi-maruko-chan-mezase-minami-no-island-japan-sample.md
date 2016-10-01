@@ -11,7 +11,7 @@ download:
  filename: sfc/chibi-maruko-chan-mezase-minami-no-island-japan-sample.7z
 ---
 
-__[ちびまる子ちゃん めざせ！南のアイランド！！](http://superfamicom.org/info/chibi-maruko-chan-mezase-minami-no-island)__
+__[ちびまる子ちゃん めざせ！南のアイランド！！](https://superfamicom.org/info/chibi-maruko-chan-mezase-minami-no-island)__
 
 Another Konami sample. Interestingly the title from the label matches the title on the final game, `RS051 CHIBIMARUKOCHAN`, but in the sample it is simply `title`.
 

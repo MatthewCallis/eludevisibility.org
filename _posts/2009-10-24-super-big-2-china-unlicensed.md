@@ -18,4 +18,4 @@ A new dump, completely supported by [coolnation](http://forums.no-intro.org/memb
 ![Super Big 2 (China) (Unlicensed)](https://snes.in/screenshots/super-big-2/super-big-2.2.png "Super Big 2 (China) (Unlicensed)")
 ![Super Big 2 (China) (Unlicensed)](https://snes.in/screenshots/super-big-2/super-big-2.3.png "Super Big 2 (China) (Unlicensed)")
 ![Super Big 2 (China) (Unlicensed)](https://snes.in/screenshots/super-big-2/super-big-2.4.png "Super Big 2 (China) (Unlicensed)")
-](http://superfamicom.org/info/super-big-2/ "Super Big 2 (China) (Unlicensed)")
+](https://superfamicom.org/info/super-big-2/ "Super Big 2 (China) (Unlicensed)")
