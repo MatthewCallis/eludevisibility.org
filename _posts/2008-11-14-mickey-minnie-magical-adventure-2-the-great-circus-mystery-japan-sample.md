@@ -28,5 +28,5 @@ Thanks to Jonny for pointing this out, the Sample ROM has a later build date tha
 
 _Cart & PCB Scan_
 
-![Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - Cart]({% asset_path "The Pirates of Dark Water (USA) (Sample) - Cart.jpg" %} "The Pirates of Dark Water (USA) (Sample) - Cart")
-![Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - PCB Front]({% asset_path "The Pirates of Dark Water (USA) (Sample) - PCB Front.jpg" %} "The Pirates of Dark Water (USA) (Sample) - PCB Front")
+![Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - Cart]({% asset_path "Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - Cart.jpg" %} "Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - Cart")
+![Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - PCB Front]({% asset_path "Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - PCB Front.jpg" %} "Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - PCB Front")
