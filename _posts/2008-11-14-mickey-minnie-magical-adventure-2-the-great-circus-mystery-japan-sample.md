@@ -25,3 +25,8 @@ Thanks to Jonny for pointing this out, the Sample ROM has a later build date tha
 [
 ![Mickey &amp; Minnie Magical Adventure 2 - The Great Circus Mystery (Japan)]({% asset_path 'screenshots/SHVC-4C-SAMPLE.2.png' %} "Mickey &amp; Minnie Magical Adventure 2 - The Great Circus Mystery (Japan)")
 ](http://superfamicom.org/info/mickey-and-minnie-magical-adventure-2-the-great-circus-mystery/ "Mickey &amp; Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample)")
+
+_Cart & PCB Scan_
+
+![Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - Cart]({% asset_path "The Pirates of Dark Water (USA) (Sample) - Cart.jpg" %} "The Pirates of Dark Water (USA) (Sample) - Cart")
+![Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - PCB Front]({% asset_path "The Pirates of Dark Water (USA) (Sample) - PCB Front.jpg" %} "The Pirates of Dark Water (USA) (Sample) - PCB Front")
