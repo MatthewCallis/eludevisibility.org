@@ -71,4 +71,4 @@ SFXMK_DATA
 GmkFileBank
 ```
 
-If you enjoy this, please consider linking to this page or [http://superfamicom.org](http://superfamicom.org) or maybe even donating something useful or sending me a post card.
+If you enjoy this, please consider linking to this page or [https://superfamicom.org](https://superfamicom.org) or maybe even donating something useful or sending me a post card.
