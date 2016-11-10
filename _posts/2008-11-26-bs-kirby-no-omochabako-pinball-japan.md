@@ -11,6 +11,8 @@ download:
  filename: sfc/bs-kirby-no-omochabako-pinball-japan.7z
 ---
 
+__カービィのおもちゃ箱 ピンボール / Kirby's Toy Box - Pinball__
+
 Well this is something I have been after for a while, the first of 2 current Kirby downloads... Kirby Pinball! It's lots of fun, but I think Gator Ball for the Game Boy was more fun. If you have this cart have no worries about playing it, as this game and seemingly other Kirby games in the same set have unlimited start ups.
 
 ![BS Kirby no Omochabako - Pinball (Japan)]({% asset_path 'screenshots/bskirbypinball/BS-Kirby-no-Omochabako-Pinball-(Japan).1.png' %} "BS Kirby no Omochabako - Pinball (Japan)")
