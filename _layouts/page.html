@@ -8,11 +8,11 @@ layout: default
         {{page.title}}
       </a>
     </h1>
-    {{% if page.tagline %}}
+    {% if page.tagline %}
     <p class="post-meta">
       {{ page.tagline }}
     </p>
-    {{% endif %}}
+    {% endif %}
     <div class="post-content">
       {{ content }}
       {% if page.download %}
