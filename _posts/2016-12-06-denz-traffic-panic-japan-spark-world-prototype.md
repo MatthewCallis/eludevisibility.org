@@ -15,7 +15,7 @@ __[Denz Traffic Panic (Japan) (Spark World Prototype)](https://superfamicom.org/
 
 __[デンズ トラフィックパニック (スパーク・ワールド プロトタイプ)](https://superfamicom.org/info/spark-world)__
 
-This is an early version of __Spark World__, a fun __[Super Bomberman](http://superfamicom.org/info/super-bomberman)__ clone where the players are cars and everything is automotive themed.
+This is an early version of __Spark World__, a fun __[Super Bomberman](https://superfamicom.org/info/super-bomberman)__ clone where the players are cars and everything is automotive themed.
 
 It's close to being finished, I only noticed the lack of a difficulty selection and a few graphical changes in the story selection, the player and the player score area- outside of the title screen overhaul due to the name change.
 
@@ -296,6 +296,8 @@ _Bonus Screenshots_
 ![In Game Story Jungle Level 2-1]({% asset_path 'screenshots/denz-traffic-panic-japan-spark-world-prototype/tp-story-stage-jungle-2-1-play-4.png' %})
 ![In Game Story River Level 2-1]({% asset_path 'screenshots/denz-traffic-panic-japan-spark-world-prototype/tp-story-stage-river-1-1-play-2.png' %})
 ![In Game Story River Level 2-1]({% asset_path 'screenshots/denz-traffic-panic-japan-spark-world-prototype/tp-story-stage-river-2-1-play-2.png' %})
+
+The game is mentioned in EGM Issue 63, as noted by Quohog on [lostlevels.org](http://forums.lostlevels.org/viewtopic.php?t=654&sid=8d524ccc46c875545556e839dc2af6c8).
 
 If you happen to know the game well and find more differences, or can translate any of the screen shots above- [please update this post on GitHub](https://github.com/MatthewCallis/eludevisibility.org) or contact me!
 

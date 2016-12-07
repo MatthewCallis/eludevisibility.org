@@ -1,0 +1,36 @@
+{
+  "name": "satellaview.org",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Matthew Callis",
+  "contributors": [
+    {
+      "name": "Matthew Callis",
+      "email": "matthew.callis@gmail.com"
+    }
+  ],
+  "main": "_site/assets/application.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatthewCallis/satellaview.org"
+  },
+  "bugs": {
+    "url": "https://github.com/MatthewCallis/satellaview.org/issues"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-no-inferred-method-name": "^1.0.2",
+    "eslint-plugin-react": "^6.7.1",
+    "eslint-plugin-xss": "^0.1.8"
+  },
+  "preferGlobal": false,
+  "private": true,
+  "scripts": {},
+  "github": "https://github.com/MatthewCallis/satellaview.org"
+}

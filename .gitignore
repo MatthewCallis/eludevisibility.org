@@ -5,3 +5,5 @@ _site
 *.php
 _TODO/
 files/
+.jekyll-metadata
+node_modules/

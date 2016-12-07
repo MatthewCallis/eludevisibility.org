@@ -15,11 +15,17 @@ paginate_path: "/page/:num/"
 locale: en_US
 
 # Build Settings
+incremental: false
+profile: false
 exclude:
   - README.md
   - Gemfile*
   - d.php
   - u.php
+  - files/
+  - node_modules/
+  - .jekyll-metadata
+  - .DS_Store
 markdown: kramdown
 kramdown:
   auto_ids: true
