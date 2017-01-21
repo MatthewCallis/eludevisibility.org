@@ -26,6 +26,7 @@ exclude:
   - node_modules/
   - .jekyll-metadata
   - .DS_Store
+  - package.json
 markdown: kramdown
 kramdown:
   auto_ids: true
