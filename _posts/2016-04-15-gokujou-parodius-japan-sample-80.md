@@ -154,3 +154,6 @@ _Pre-Game - Sample_
 _Cart Label / PCB_
 
 ![PCB & Cart]({% asset_path 'Gokujou Parodius (Japan) (Sample) - PCB & Cart.jpg' %})
+
+A gameplay video play through played by [Kiddo Cabbusses | サテラビュー好きの外人さん](https://www.youtube.com/channel/UCOXvfoAZZJhmDZw0boGkSYA):
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iqMAY7ZYs-o" frameborder="0" allowfullscreen></iframe>

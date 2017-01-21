@@ -79,3 +79,6 @@ Carrots:
 ![Tenchi Muyou! Game Hen (Japan) Carrots 2]({% asset_path 'screenshots/tenchi/tenchi-muyou-game-hen.7.png' %} "Tenchi Muyou! Game Hen (Japan) Carrots 2")
 
 If anyone can play through more and find any significant changes, please let me know!
+
+A gameplay video play through played by [Kiddo Cabbusses | サテラビュー好きの外人さん](https://www.youtube.com/channel/UCOXvfoAZZJhmDZw0boGkSYA):
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6ZplJFY3fT0" frameborder="0" allowfullscreen></iframe>

@@ -53,3 +53,6 @@ In debug mode you can fly around, getting to any area quickly, but hitting the L
     name_2='Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame - Sample'
     image_2='screenshots/goemon3/ganbare-goemon-3-sample.4.png'
 %}
+
+A gameplay video play through played by [Kiddo Cabbusses | サテラビュー好きの外人さん](https://www.youtube.com/channel/UCOXvfoAZZJhmDZw0boGkSYA):
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3Edn8j8Emd4" frameborder="0" allowfullscreen></iframe>

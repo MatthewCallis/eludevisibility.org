@@ -218,3 +218,6 @@ Interleaved: None                        SRAM: 64 Kb
 If you happen to know the game well and find more differences, or can translate any of the screen shots above- [please update this post on GitHub](https://github.com/MatthewCallis/eludevisibility.org) or contact me!
 
 ![Down the World - Mervil\'s Ambition (Japan) (Demo) - PCB Front]({% asset_path "Down the World - Mervil's Ambition (Japan) (Demo) - PCB Front.jpg" %} "Down the World - Mervil\'s Ambition (Japan) (Demo) - PCB Front")
+
+A gameplay video play through played by [Kiddo Cabbusses | サテラビュー好きの外人さん](https://www.youtube.com/channel/UCOXvfoAZZJhmDZw0boGkSYA):
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wXbkmgPZ4aY" frameborder="0" allowfullscreen></iframe>

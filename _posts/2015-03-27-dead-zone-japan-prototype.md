@@ -15,3 +15,6 @@ download:
 ![Dead Zone (Japan) (Prototype)]({% asset_path 'screenshots/dead-zone-japan-prototype/dead-zone-japan-prototype.1.png' %})
 
 Dead Zone is a prototype of Dead Zone by Sunsoft. The CRC is completely different from commercially available disc, it is believed to be an early prototype. Anyone willing to investigate and report back? Just contribute!
+
+A gameplay video play through played by [Kiddo Cabbusses | サテラビュー好きの外人さん](https://www.youtube.com/channel/UCOXvfoAZZJhmDZw0boGkSYA):
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9qnLXB2-j1s" frameborder="0" allowfullscreen></iframe>

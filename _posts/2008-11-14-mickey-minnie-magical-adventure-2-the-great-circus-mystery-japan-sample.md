@@ -30,3 +30,6 @@ _Cart & PCB Scan_
 
 ![Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - Cart]({% asset_path "Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - Cart.jpg" %} "Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - Cart")
 ![Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - PCB Front]({% asset_path "Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - PCB Front.jpg" %} "Mickey & Minnie Magical Adventure 2 - The Great Circus Mystery (Japan) (Sample) - PCB Front")
+
+A gameplay video play through played by [Kiddo Cabbusses | サテラビュー好きの外人さん](https://www.youtube.com/channel/UCOXvfoAZZJhmDZw0boGkSYA):
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tjQJMlT3WNQ" frameborder="0" allowfullscreen></iframe>
