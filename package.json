@@ -1,5 +1,5 @@
 {
-  "name": "satellaview.org",
+  "name": "eludevisibility.org",
   "version": "1.0.0",
   "description": "",
   "author": "Matthew Callis",
@@ -20,17 +20,17 @@
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
-    "babel-eslint": "^7.1.0",
-    "eslint": "^3.10.2",
-    "eslint-config-airbnb": "^12.0.0",
-    "eslint-plugin-import": "^1.16.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-no-inferred-method-name": "^1.0.2",
-    "eslint-plugin-react": "^6.7.1",
+    "eslint-plugin-react": "^6.9.0",
     "eslint-plugin-xss": "^0.1.8"
   },
   "preferGlobal": false,
   "private": true,
   "scripts": {},
-  "github": "https://github.com/MatthewCallis/satellaview.org"
+  "github": "https://github.com/MatthewCallis/eludevisibility.org"
 }
