@@ -50,10 +50,11 @@ Useful for direct image comparison.
 ## Running Locally
 ```
 bundle install
-bundle exec jekyll serve --trace
+bundle exec jekyll serve --trace --incremental
 ```
 
 ## Building for Release
 ```
-JEKYLL_ENV=production bundle exec jekyll build --trace --config _config_production.yml
+ulimit -n 8192
+JEKYLL_ENV=production bundle exec jekyll build --trace --profile --config _config_production.yml
 ```

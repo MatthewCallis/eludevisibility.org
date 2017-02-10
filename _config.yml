@@ -37,6 +37,8 @@ gzip_zopfli: true
 gems:
   - jekyll-assets
   - jekyll-paginate
+  - jekyll-last-modified-at
+  - jekyll-sitemap
 assets:
   cachebust: none
   debug: false
@@ -44,6 +46,9 @@ assets:
   assets:
     - "*.png"
     - "*.jpg"
+  exclude:
+    - node_modules
+    -
   js_compressor: uglifier
   css_compressor: sass
   gzip:

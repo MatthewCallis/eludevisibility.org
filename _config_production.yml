@@ -38,6 +38,8 @@ gems:
   - jekyll-assets
   - jekyll-paginate
   - jekyll-press
+  - jekyll-last-modified-at
+  - jekyll-sitemap
 assets:
   cachebust: none
   debug: false
@@ -56,7 +58,7 @@ assets:
   sources:
     - _assets/files
 jekyll-press:
-  exclude: 'feed.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+  exclude: ['feed.xml', '_assets/images/*'] # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
   js_options: {}      # js minifier options
   css_options: {}     # css minifier options
   html_options: {}    # html minifier options
