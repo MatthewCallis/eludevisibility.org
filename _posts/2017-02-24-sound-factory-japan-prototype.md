@@ -10,7 +10,7 @@ thumbnail: screenshots/sound-factory-japan-prototype/sound-factory-japan-prototy
 
 A prototype of Sound Fantasy, when it was still named Sound Factory. Presumed to be the build from the Nintendo Shoskinkai 1993 event.
 
-There are two cartridges known to exist with the exact same ROM data written. Was found by steven78, then sold both cartridges on eBay. Was bought by an anonymous buyer for about $7,000 who dumped the cartridge using a Super Wild Card DX2, and sent to LuigiBlood for release.
+There are two cartridges known to exist with the exact same ROM data written. Was found by steven78, then sold both cartridges on eBay. Was bought by an anonymous buyer for about $7,000 who dumped the cartridge using a Super Wild Card DX2, and sent to LuigiBlood for release. (ROM dump release date: 2015/04/07)
 
 Contains Pix Quartet (based from Music Insects), Beat Hopper and Star Fly.
 Does not seem to have any traces of Ice Sweeper.
