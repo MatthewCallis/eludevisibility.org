@@ -20,13 +20,14 @@ Pix Quartet has a few bugs with a few insects not playing notes when crawling ov
 [Download Sound Factory (Japan) (Prototype)](https://bsxproj.superfamicom.org/snes/sound.zip)
 
 [SNES Central article](http://snescentral.com/article.php?id=0114)
+
 [Sound Fantasy documented differences between builds](https://bsxproj.superfamicom.org/snes/article/soundfantasy/)
 
 _Cartridge Pictures_
 
 ![Cartridge (Front)]({% asset_path 'screenshots/sound-factory-japan-prototype/sound-factory-cart-front.jpg' %})
 
-Says "Sound Factory - Nintendo R&D2"
+Says "Sound Factory - Nintendo R&D1"
 
 ![Cartridge (Back)]({% asset_path 'screenshots/sound-factory-japan-prototype/sound-factory-cart-back.jpg' %})
 
