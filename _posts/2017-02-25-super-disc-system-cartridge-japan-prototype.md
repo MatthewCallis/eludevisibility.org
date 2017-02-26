@@ -10,7 +10,7 @@ thumbnail: screenshots/super-disc-system-cartridge-japan-prototype/SuperDisc-Tit
 
 The SNES CD BIOS ROM dump of the cartridge that came with the Super Famicom Play Station unit found by Terry and Dan Diebold. The ROM was dumped using a Game Doctor and released in 2016/03/01. Also officially named "Super Disc System Cartridge".
 
-This cartridge would have been used to play Sony SNES CD games. Contains a bunch of BIOS functions in the ROM, alongside 256KB of WRAM (S-WRAM chips) and 32KB of battery backed RAM for saves.
+This cartridge would have been used to play Sony SNES CD games. Contains a bunch of BIOS functions in the ROM, alongside 256KB of WRAM (S-WRAM chips) and 8KB of battery backed RAM for saves.
 
 A monitor debug menu can be accessed by pressing A + X at the main screen.
 
