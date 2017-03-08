@@ -1,0 +1,46 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "no-inferred-method-name",
+    "xss",
+    "html",
+  ],
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+  },
+  "globals": {
+    "sinon": false,
+  },
+  # Custom Disabled Rules
+  rules: {
+    camelcase: 0,
+    max-len: 0,
+    no-console: 0, # ["error", { allow: ["info", "warn", "error"] }],
+    no-bitwise: 0,
+    no-param-reassign: 0,
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    comma-dangle: ['error', {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "ignore",
+        "exports": "ignore",
+        "functions": "ignore",
+    }],
+    no-restricted-syntax: [
+      'error',
+      'ForOfStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ],
+    'no-plusplus': 0,
+    'class-methods-use-this': 0,
+    # Rules up for debate:
+    # func-names: 0,
+    # global-require: 0,
+    # no-else-return: 0,
+    # no-undef: 0,
+    # quotes: 0,
+  }
+}
