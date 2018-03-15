@@ -33,6 +33,48 @@ _Screenshots_
 ![Story]({% asset_path 'screenshots/super-nazo-puyo-tsuu-rulue-no-tetsuwan-hanjouki-japan-96-tokyo-toy-show/story-1.png' %})
 ![Act Against AIDS]({% asset_path 'screenshots/super-nazo-puyo-tsuu-rulue-no-tetsuwan-hanjouki-japan-96-tokyo-toy-show/aids.png' %})
 
+_Transcriptions & Translations_
+
+![Game Info]({% asset_path 'screenshots/super-nazo-puyo-tsuu-rulue-no-tetsuwan-hanjouki-japan-96-tokyo-toy-show/game-info.png' %})
+
+ジャンル … パズル
+対応機種 … スーパーファミコン
+メディア … ROMカートリッジ 12M+BB
+発売日 … 96-6-26
+価格 … 6800
+
+Genre … Puzzle
+Compatible Model … Super Famicom
+Media … ROM Cartridge 12M+BB
+Release Date … 96-6-26 (June 26th, 1996)
+Price … 6800
+
+---
+
+![Contact Screen]({% asset_path 'screenshots/super-nazo-puyo-tsuu-rulue-no-tetsuwan-hanjouki-japan-96-tokyo-toy-show/contact-screen.png' %})
+
+?? Promotion
+期間：1996年6月28 ~ 12月28
+抽選で: 3000名榚 (?500?)に
+★オリジナ儿テレカ★を
+プレゼント!!
+
+詳しくは
+取扱説明書を
+読んでねv
+
+?? Campaign
+Period: 1996-06-28 - 12-28
+Lottery: 3000 People
+★ Original Phone Card ★
+Present!!
+
+
+
+For details,
+[game]
+please read [game's] the instruction manual♡
+
 _Playthrough Video_
 
 A gameplay video play through played by [Kiddo Cabbusses | サテラビュー好きの外人さん](https://www.youtube.com/channel/UCOXvfoAZZJhmDZw0boGkSYA):
