@@ -18,18 +18,20 @@
     "url": "https://github.com/MatthewCallis/satellaview.org/issues"
   },
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "npm-check-updates": "^2.14.2"
+  },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.17.1",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-html": "^2.0.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-html": "^4.0.3",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-no-inferred-method-name": "^1.0.2",
-    "eslint-plugin-node": "^4.2.0",
-    "eslint-plugin-react": "^6.10.0",
-    "eslint-plugin-xss": "^0.1.8"
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-xss": "^0.1.9"
   },
   "preferGlobal": false,
   "private": true,

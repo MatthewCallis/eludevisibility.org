@@ -1,0 +1,32 @@
+<div class="comparison-container">
+  <div class="comparison full-size">
+    <div class="container">
+      <div class="divisor inline">
+        <img src="{% asset_path '{{include.image_1}}' %}" alt="{{include.name_1}}" title="{{include.name_1}}"/>
+      </div>
+      <img src="{% asset_path '{{include.image_2}}' %}" alt="{{include.name_2}}" title="{{include.name_2}}"/>
+    </div>
+    <input type="range" min="0" max="100" value="50" class="slider"/>
+    <select name="blend-mode" class="blend-mode">
+      <option value="normal" selected>Normal</option>
+      <option value="multiply">Multiply</option>
+      <option value="screen">Screen</option>
+      <option value="overlay">Overlay</option>
+      <option value="darken">Darken</option>
+      <option value="lighten">Lighten</option>
+      <option value="color-dodge">Color Dodge</option>
+      <option value="olor-burn">Color Burn</option>
+      <option value="hard-light">Hard Light</option>
+      <option value="soft-light">Soft Light</option>
+      <option value="difference">Difference</option>
+      <option value="exclusion">Exclusion</option>
+      <option value="hue">Hue</option>
+      <option value="saturation">Saturation</option>
+      <option value="color">Color</option>
+      <option value="luminosity">Luminosity</option>
+    </select>
+    <input type="radio" name="type" value="inline" class="types type-inline" checked/> 2-Up
+    <input type="radio" name="type" value="slider" class="types type-slider"/> Swipe
+    <input type="radio" name="type" value="onion" class="types type-onion"/> Onion Skin
+  </div>
+</div>

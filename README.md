@@ -55,6 +55,7 @@ bundle exec jekyll serve --trace --incremental
 
 ## Building for Release
 ```
+rm -fr _site/
 ulimit -n 8192
 JEKYLL_ENV=production bundle exec jekyll build --trace --profile --config _config_production.yml
 ```

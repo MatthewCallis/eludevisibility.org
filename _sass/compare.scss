@@ -15,6 +15,7 @@
 
     .container {
       padding-bottom: 0.5em;
+      text-align: left;
 
       .divisor {
         position: absolute;
@@ -45,11 +46,27 @@
       max-width: 256px;
       box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
       border: 1px solid #63c363;
+      image-rendering: optimizeSpeed;
+      image-rendering: -o-crisp-edges;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: optimize-contrast;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: pixelated; /* CSS4 */
+      image-rendering: crisp-edges; /* CSS4 */
+      -ms-interpolation-mode: nearest-neighbor; /* IE */
     }
     input.slider, select {
       display: block;
       width: 100%;
       margin-bottom: 0.25em;
+    }
+
+    &.full-size {
+      .container {
+        img {
+          max-width: 512px;
+        }
+      }
     }
 
     &:hover {

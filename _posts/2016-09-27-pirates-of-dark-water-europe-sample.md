@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pirates of Dark Water, The (Europe) (Sample)
+title: Pirates of Dark Water (Europe) (Sample)
 date: 2016-09-27 20:15:00
 slug: pirates-of-dark-water-europe-sample
 category: Super Famicom
