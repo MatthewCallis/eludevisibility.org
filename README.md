@@ -49,6 +49,7 @@ Useful for direct image comparison.
 
 ## Running Locally
 ```
+ulimit -n 8192
 bundle install
 bundle exec jekyll serve --trace --incremental
 ```
