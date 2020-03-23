@@ -16,23 +16,27 @@ This is a sales sheet for the tentativly named *Game Kiosk*, which was the worki
 
 I've scanned the pages and attempted to extract the text and added machine translations for the contents. If you can translate them better please let me know and I will update the text below. I've also collected them into a single PDF for easier grouping.
 
-_Page 1 Japanese_
+---
+
+## Page 1 Japanese
 
 ゲームキオスク（仮称）説明資料
 平成9年4月
 任天堂株式会社
 
-_Page 1 English_
+## Page 1 English
 
 Game kiosk (tentative name) explanatory material
 April 1997
 Nintendo Co., Ltd
 
-![Page 1](https://snes.in/game-kiosk-np-writer/game-kiosk-np-writer-page-1.jpg)
+![Page 1](/assets/game-kiosk-np-writer/game-kiosk-np-writer-page-1.jpg)
 
-_Page 2 Japanese_
+---
 
-1. 目的
+## Page 2 Japanese
+
+１. 目的
 
 スーパーファミコンは、日本国内で1,700万台（平成8年12月末）の販売実績を持つ家庭用テレビゲームの標準機であります。
 
@@ -43,9 +47,9 @@ _Page 2 Japanese_
 ソフトメーカーにとっては開発コストの効率化が可能となり販売店におかれましては在庫リスクが無く、パッケージ化（生産）の期間が無い為に売り逃しの無い安心できるビジネスが実現致します。
 ひいては中古問題の解決にもつながるものと考えております。
 
-_Page 2 English_
+## Page 2 English
 
-1. Purpose
+１. Purpose
 
 Super Nintendo is the standard home video game console with a sales record of 17 million units in Japan (end of December 1996).
 
@@ -56,11 +60,13 @@ The "game kiosk (provisional name)" is a system that uses a writable flash memor
 For software manufacturers, development costs can be made more efficient, and there is no inventory risk at retailers, and there is no packaging (production) period.
 We believe that it will eventually lead to the solution of used problems.
 
-![Page 2](https://snes.in/game-kiosk-np-writer/game-kiosk-np-writer-page-2.jpg)
+![Page 2](/assets/game-kiosk-np-writer/game-kiosk-np-writer-page-2.jpg)
 
-_Page 3 Japanese_
+---
 
-2. 概 要
+## Page 3 Japanese
+
+２. 概 要
 
 < ゲームキオスク（仮称）ソフト供給のフロー >
 
@@ -84,30 +90,31 @@ _Page 3 Japanese_
 
 ユーザー
 
-3. 広告宣伝・販売促進
+３. 広告宣伝・販売促進
 
 販売促進、広告宣伝は弊社が主体者となって実施致します。企画、および内容についてはソフトメーカーの協力をお願いし、実施する予定です。
 
 ● 広告宣伝
 
-1. TV宣伝はスポット、および提供番組での広告。
+１. TV宣伝はスポット、および提供番組での広告。
 
-2. 雑誌宣伝はゲーム誌、コミック誌等。
+２. 雑誌宣伝はゲーム誌、コミック誌等。
 
 ● 販売促進
-1. 店頭でのパンフレット、チラシの配布。
 
-2. 「NINTENDOマガジン（仮称）」の様なコミュニケーション誌を発刊致します。
+１. 店頭でのパンフレット、チラシの配布。
 
-3. 小学館、アスキーリクルートの既刊誌と連動した総合的な広告、パブリシティを展開致します。
+２. 「NINTENDOマガジン（仮称）」の様なコミュニケーション誌を発刊致します。
 
-4. 様々なイベントを実施致します。
+３. 小学館、アスキーリクルートの既刊誌と連動した総合的な広告、パブリシティを展開致します。
 
-_Page 3 English_
+４. 様々なイベントを実施致します。
 
-2. Overview
+## Page 3 English
 
-<Flow of game kiosk (tentative name) software supply>
+２. Overview
+
+< Flow of game kiosk (tentative name) software supply >
 
 Software maker
 
@@ -129,31 +136,33 @@ Payment of writing fee
 
 user
 
-3. Advertising and Sales Promotion
+３. Advertising and Sales Promotion
 
 Sales promotion and advertising will be conducted by our company. We will ask for the cooperation of the software maker for the planning and content, and will implement it.
 
 ● Advertising
 
-1. TV advertising is advertising in spots and offered programs.
+１. TV advertising is advertising in spots and offered programs.
 
-2. Magazine advertisements include game magazines and comic magazines.
+２. Magazine advertisements include game magazines and comic magazines.
 
 ● Sales promotion
 
-1. Distribution of pamphlets and flyers at stores.
+１. Distribution of pamphlets and flyers at stores.
 
-2. We will publish a communication magazine like "NINTENDO Magazine (tentative name)".
+２. We will publish a communication magazine like "NINTENDO Magazine (tentative name)".
 
-3. We will develop comprehensive advertising and publicity linked to the previously published magazines of Shogakukan and ASCII Recruit.
+３. We will develop comprehensive advertising and publicity linked to the previously published magazines of Shogakukan and ASCII Recruit.
 
-4. We carry out various events.
+４. We carry out various events.
 
-![Page 3](https://snes.in/game-kiosk-np-writer/game-kiosk-np-writer-page-3.jpg)
+![Page 3](/assets/game-kiosk-np-writer/game-kiosk-np-writer-page-3.jpg)
 
-_Page 4 Japanese_
+---
 
-4. システム構成
+## Page 4 Japanese
+
+４. システム構成
 
 任天堂サーバー
 
@@ -165,7 +174,7 @@ GKライター（マスター）
 
 GKライター（スレーブ）
 
-5. スケジュール等
+５. スケジュール等
 
 ● 書換えサービスの開始
 
@@ -179,9 +188,9 @@ GKライター（スレーブ）
 
 7月頃にGKコントローラ、GKライターの量産品、およびスタート時のソフトの展示説明会を開催致します。その際、併せて募集要項も発表致します。
 
-_Page 4 English_
+## Page 4 English
 
-4. System configuration
+４. System configuration
 
 Nintendo server
 
@@ -193,7 +202,7 @@ GK Writer (Master)
 
 GK Writer (Slave)
 
-5. Schedule etc.
+５. Schedule etc.
 
 ● Start of rewriting service
 
@@ -207,19 +216,23 @@ Approximately 100 titles, including newly released software, are planned.
 
 An exhibition briefing will be held around July for GK controllers, GK writer mass-produced products, and software at the start. At that time, we will also announce the application guidelines.
 
-![Page 4](https://snes.in/game-kiosk-np-writer/game-kiosk-np-writer-page-4.jpg)
+![Page 4](/assets/game-kiosk-np-writer/game-kiosk-np-writer-page-4.jpg)
 
-_Page 5 Japanese_
+---
+
+## Page 5 Japanese
 
 イメージ図
 
-_Page 5 English_
+## Page 5 English
 
 Image
 
-![Page 5](https://snes.in/game-kiosk-np-writer/game-kiosk-np-writer-page-5.jpg)
+![Page 5](/assets/game-kiosk-np-writer/game-kiosk-np-writer-page-5.jpg)
 
-_Page 6 Japanese_
+---
+
+## Page 6 Japanese
 
 ■ GK端末仕様
 
@@ -285,7 +298,7 @@ PCB: 両面 62 ピン端子金メッキ仕様
 備考: シングルゲーム：ユーザーエリア 32Mb
   マルチゲーム：ューザーエリア 28Mb、メニューエリア 4Mb
 
-_Page 6 English_
+## Page 6 English
 
 ■ GK Terminal Specifications
 
@@ -351,4 +364,4 @@ Current consumption: 5V-200mA or less
 Remarks: Single game: User area 32Mb
   Multi-game: user area 28Mb, menu area 4Mb
 
-![Page 6](https://snes.in/game-kiosk-np-writer/game-kiosk-np-writer-page-6.jpg)
+![Page 6](/assets/game-kiosk-np-writer/game-kiosk-np-writer-page-6.jpg)
